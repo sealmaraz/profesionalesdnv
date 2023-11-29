@@ -1,0 +1,115 @@
+ header {
+     font-family: var(--primari-font);
+     color: var(--light-color-900);
+     background-color: var(--primary-color-solid);
+     padding: var(--spacing-68);
+     min-height: 219px;
+ }
+
+ .header__img {
+     max-width: 12rem;
+     /* min-width: 10rem; */
+     flex-grow: 1;
+ }
+
+ .header__text_logo {
+     flex-grow: 1;
+     text-align: center;
+     font-size: var(--font-jumbo);
+     text-shadow: 1px 1px 2px black;
+     
+ }
+
+ .header__box {
+     display: flex;
+     flex-wrap: nowrap;
+     align-items: center;
+     justify-content: space-between;
+     /* max-height: 83px; */
+ }
+
+ @media screen and (max-width: 1920px) {
+
+    .header__text_logo {
+        font-size: var(--font-xlarge);
+    }
+}
+ @media screen and (max-width: 1024px) {
+    .header__text_logo {
+        font-size: var(--font-inter);
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .header__img{
+        max-width: 10rem;
+    }
+    .header__text_logo {
+        font-size: var(--font-medium);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header__img{
+        max-width: 10rem;
+    }
+    .header__text_logo {
+        font-size: var(--font-small);
+    }
+}
+ /* img{
+    width: 150px;
+    height: auto;
+} */
+ /*
+
+.header__img{
+
+    width: 150px;
+    height: auto;
+}
+.header__text_logo {
+    display: inline-flex;
+    font-size: var(--font-display);
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+@media screen and (max-width: 1043px) {
+    .header__text_logo {
+        font-size: var(--font-jumbo);
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .header__text_logo {
+        font-size: var(--font-large);
+    }
+}
+
+.header__img{
+    display: inline-flex;
+    width: 150px;
+    height: auto;
+}
+.header_box {
+    margin: 0 auto;
+    display: flex;
+    min-width: 150px;
+    max-width: 150px; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__item {
+    justify-content: space-between;
+    display: inline-flex;
+} */
