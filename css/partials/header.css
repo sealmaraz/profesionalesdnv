@@ -1,9 +1,14 @@
  header {
-     font-family: var(--primari-font);
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     font-family: var(--primary-font);
      color: var(--light-color-900);
      background-color: var(--primary-color-solid);
-     padding: var(--spacing-68);
+     padding: var(--spacing-36);
      min-height: 219px;
+     border-bottom-style: solid;
+     border-bottom-color: var(--secondary-color-solid);
  }
 
  .header__img {
@@ -13,51 +18,146 @@
  }
 
  .header__text_logo {
+     text-transform: uppercase;
      flex-grow: 1;
      text-align: center;
      font-size: var(--font-jumbo);
-     text-shadow: 1px 1px 2px black;
-     
+     text-shadow: 2px 2px 3px black;
+
  }
 
  .header__box {
+     padding-left: 10em;
+     padding-right: 10em;
      display: flex;
      flex-wrap: nowrap;
      align-items: center;
-     justify-content: space-between;
+     justify-content: space-around;
      /* max-height: 83px; */
  }
 
  @media screen and (max-width: 1920px) {
 
-    .header__text_logo {
-        font-size: var(--font-xlarge);
-    }
-}
+     .header__text_logo {
+         font-size: var(--font-xlarge);
+     }
+ }
+
  @media screen and (max-width: 1024px) {
-    .header__text_logo {
-        font-size: var(--font-inter);
-    }
-}
+     .header__text_logo {
+         font-size: var(--font-inter);
+     }
+ }
 
 
-@media screen and (max-width: 768px) {
-    .header__img{
-        max-width: 10rem;
-    }
-    .header__text_logo {
-        font-size: var(--font-medium);
-    }
+ @media screen and (max-width: 768px) {
+     .header__img {
+         max-width: 10rem;
+     }
+
+     .header__text_logo {
+         font-size: var(--font-medium);
+     }
+ }
+
+ @media screen and (max-width: 480px) {
+
+     .header__img {
+         max-width: 10rem;
+     }
+
+     .header__text_logo {
+         font-size: var(--font-small);
+         transition: all .3s ease-in-out;
+
+     }
+
+ }
+
+ .navbar {
+     margin-top: 3em;
+
+ }
+
+ .navbar__menu {
+     display: flex;
+     justify-content: space-between;
+     height: 3em;
+     text-align: center;
+     align-items: center;
+     position: relative;
+     flex-grow: 1;
+
+ }
+
+ .navbar__link {
+     text-transform: uppercase;
+     font-size: var(--font-inter);
+     font-family: var(--alternative-font);
+     padding: var(--spacing-8) var(--spacing-18);
+     display: inline-block;
+     transition: all .3s ease-in-out;
+ }
+
+ .navbar__link:hover {
+     background-color: var(--secondary-color-900);
+ }
+
+ .submenu__item {
+     width: 300px;
+     background-color: var(--primary-color-solid);
+     padding: var(--spacing-12) var(--spacing-18);
+     transition: all .3s ease-in-out;
+     text-align: left;
+ }
+
+ .submenu {
+     display: none;
+     position: absolute;
+     z-index: 1;
+ }
+
+ .submenu__link {
+     text-align: left;
+     font-size: var(--font-inter);
+     font-family: var(--primary-font);
+     font-weight: 300;
+ }
+
+.destacado{
+    background-color: var(--secondary-color-solid);
+}
+.submenuopen:hover .destacado{
+    text-decoration: none !important;
+padding: 10px !important;
+color: #ffffff !important;
+background-color: #69293a !important;
+border-radius: 6px !important;
+    /* background-color: var(--secondary-color-200);
+    transition: all .3s ease-in-out; */
+}
+ .submenuopen:hover .submenu {
+     display: block;
+ }
+
+ .submenu__item:hover {
+     background-color: var(--secondary-color-900);
+ }
+
+ /* @media screen and (max-width: 1020px) {
+
+.contenedor{
+    width: 100%;
 }
 
-@media screen and (max-width: 480px) {
-    .header__img{
-        max-width: 10rem;
-    }
-    .header__text_logo {
-        font-size: var(--font-small);
-    }
+.navbar__menu{
+    position: absolute;
+    flex-direction: column;
+    display: block;
+    margin-left: 0px;
 }
+} */
+
  /* img{
     width: 150px;
     height: auto;
@@ -103,13 +203,13 @@
     align-items: center;
 }
 
-.header__navbar {
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.navbar__item {
+.navbar__menu {
     justify-content: space-between;
     display: inline-flex;
 } */
