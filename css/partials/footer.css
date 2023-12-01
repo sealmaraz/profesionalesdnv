@@ -1,0 +1,30 @@
+/* Inicio de estilos de footer */
+footer{
+    font-size: var(--font-normal);
+    color: var(--light-bg-color-solid) ;
+    font-family: var(--primary-font);
+    background-color: var( --gray-color-solid);
+    padding: var(--spacing-18);
+}
+
+/* Párrafo copyright */
+.footer__info{
+    padding: 7px;
+    text-align: center;
+
+    
+}
+.footer__line{
+    border:2px;
+    border-top-style: ridge ;
+    border-bottom-color: var(--primary-color-solid);
+}
+
+
+/* Estilos de redes sociales en footer */
+.redes__lista{
+    padding: 12px;
+    font-size:var(--font-xlarge);
+    display: flex;
+    justify-content: space-around;
+}

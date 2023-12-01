@@ -7,7 +7,7 @@ header {
   background-color: var(--primary-color-solid);
   padding: var(--spacing-36);
   min-height: 100px;
-  border-bottom-style: solid;
+  border-bottom-style: ridge;
   border-bottom-color: var(--secondary-color-solid);
 }
 
@@ -120,7 +120,9 @@ header {
     z-index: 100;
     display: block;
   }
-
+.navbar__toggle:hover{
+  cursor: pointer;
+}
   header {
     font-family: var(--primary-font);
     color: var(--light-color-900);
