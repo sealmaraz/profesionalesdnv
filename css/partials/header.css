@@ -31,14 +31,15 @@ header {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  /* max-height: 83px; */
 }
 
 .navbar__toggle {
   background: none;
   border: none;
-  font-size: var(--font-inter);
+  font-size: var(--font-jumbo);
   display: none;
+  line-height: 60px;
+  margin-left: 10px;
 }
 
 .header__text_logo {
@@ -114,11 +115,26 @@ header {
 
 /* RESPONSIVE PARA DISPOSITIVOS MEDIANOS */
 @media screen and (max-width: 768px) {
+
+  .navbar__toggle {
+    display: block;
+  }
+  
+  header {
+    font-family: var(--primary-font);
+    color: var(--light-color-900);
+    background-color: var(--primary-color-solid);
+    padding: var(--spacing-18);
+    padding: 0 auto;
+    height: 10vw;
+  }
+
   .navbar {
+    width: 40vw;
     margin-top: 0;
     top: 100px;
     position: absolute;
-    left: 0;
+    right: 0;
   }
   .navbar__menu {
     position: relative;
@@ -132,25 +148,19 @@ header {
   .navbar__item {
     font-size: 0.7em;
   }
+
   .navbar__item:hover {
     background-color: var(--secondary-color-900);
   }
-
+  .submenu {
+    position: relative;
+  }
   .header__img {
     max-width: 10rem;
   }
 
   .header__text_logo {
-    font-size: var(--font-medium);
-  }
-
-  header {
-    font-family: var(--primary-font);
-    color: var(--light-color-900);
-    background-color: var(--primary-color-solid);
-    padding: var(--spacing-18);
-    padding: 0 auto;
-    height: 10vw;
+    font-size: var(--font-small);
   }
 
   .header__box {
@@ -170,73 +180,3 @@ header {
     transition: all 0.3s ease-in-out;
   }
 }
-
-/* @media screen and (max-width: 1020px) {
-
-.contenedor{
-    width: 100%;
-}
-
-.navbar__menu{
-    position: absolute;
-    flex-direction: column;
-    display: block;
-    margin-left: 0px;
-}
-} */
-
-/* img{
-    width: 150px;
-    height: auto;
-} */
-/*
-
-.header__img{
-
-    width: 150px;
-    height: auto;
-}
-.header__text_logo {
-    display: inline-flex;
-    font-size: var(--font-display);
-    text-align: center;
-    text-shadow: 1px 1px 2px black;
-}
-
-@media screen and (max-width: 1043px) {
-    .header__text_logo {
-        font-size: var(--font-jumbo);
-    }
-}
-
-
-@media screen and (max-width: 900px) {
-    .header__text_logo {
-        font-size: var(--font-large);
-    }
-}
-
-.header__img{
-    display: inline-flex;
-    width: 150px;
-    height: auto;
-}
-.header_box {
-    margin: 0 auto;
-    display: flex;
-    min-width: 150px;
-    max-width: 150px; 
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.navbar__menu {
-    justify-content: space-between;
-    display: inline-flex;
-} */
