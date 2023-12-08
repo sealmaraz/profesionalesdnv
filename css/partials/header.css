@@ -1,0 +1,219 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: var(--primary-font);
+  color: var(--light-color-900);
+  background-color: var(--primary-color-solid);
+  padding: var(--spacing-36);
+  min-height: 100px;
+  border-bottom-style: ridge;
+  border-bottom-color: var(--secondary-color-solid);
+}
+
+.header__img {
+  max-width: 12rem;
+  /* min-width: 10rem; */
+}
+
+.header__text_logo {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: var(--font-jumbo);
+  text-shadow: 2px 2px 3px black;
+}
+
+.header__box {
+  padding-left: 5em;
+  padding-right: 5em;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.navbar__toggle {
+  background: none;
+  border: none;
+  font-size: var(--font-jumbo);
+  display: none;
+  line-height: 60px;
+  margin-left: 10px;
+}
+
+.header__text_logo {
+  font-size: var(--font-xlarge);
+}
+
+.navbar {
+  margin-top: 3em;
+}
+
+.navbar__menu {
+  display: flex;
+  justify-content: space-between;
+  height: 3em;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  flex-grow: 1;
+}
+
+.navbar__link {
+  text-transform: uppercase;
+  font-size: var(--font-small);
+  font-family: var(--alternative-font);
+  padding: var(--spacing-8) var(--spacing-18);
+  display: inline-block;
+  /* transition: all 0.3s ease-in-out; */
+}
+
+/* .navbar__link:hover {
+  border-radius: 3px;
+  background-color: var(--secondary-color-900);
+} */
+
+.submenu__item {
+  width: 300px;
+  background-color: var(--primary-color-solid);
+  padding: var(--spacing-12) var(--spacing-18);
+  /* transition: all 0.3s ease-in-out; */
+  text-align: left;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.submenu__link {
+  text-align: left;
+  font-size: var(--font-small);
+  font-family: var(--primary-font);
+  font-weight: 300;
+}
+
+.destacado {
+  background-color: var(--secondary-color-solid);
+}
+
+.submenuopen:hover .submenu {
+  display: block;
+}
+
+.submenu__item:hover {
+  border-radius: 3px;
+  background-color: var(--secondary-color-900);
+}
+@media screen and (min-width: 769px) {
+  .navbar__link:hover {
+    border-radius: 3px;
+    background-color: var(--secondary-color-900);
+  }
+  .navbar__link{
+  transition: all 0.3s ease-in-out;}
+}
+
+@media screen and (max-width: 1024px) {
+  .header__text_logo {
+    font-size: var(--font-inter);
+  }
+}
+
+/* RESPONSIVE PARA DISPOSITIVOS MEDIANOS */
+@media screen and (max-width: 870px) {
+
+  header {
+    font-family: var(--primary-font);
+    color: var(--light-color-900);
+    background-color: var(--primary-color-solid);
+    padding: var(--spacing-18);
+    padding: 0 auto;
+    height: 10vw;
+  }
+
+  .navbar__toggle {
+    z-index: 100;
+    display: block;
+  }
+
+  .navbar__toggle:hover {
+    cursor: pointer;
+  }
+
+  .navbar__link:hover {
+    border-radius: 3px;
+    /* background-color: var(--secondary-color-900); */
+  }
+
+  .navbar {
+    width: 200px;
+    margin-top: 0;
+    top: 100px;
+    position: absolute;
+    right: 100%;
+    transition: right 0.4s;
+  }
+
+  .navbar-active {
+    right: 0;
+  }
+
+  .navbar__menu {
+    position: relative;
+    display: block;
+    height: 100%;
+
+    background-color: var(--primary-color-solid);
+    flex-direction: column;
+  }
+
+  .navbar__item {
+    font-size: 0.7em;
+  }
+
+  .navbar__item:hover {
+    background-color: var(--secondary-color-900);
+  }
+
+  .submenu__item {
+    width: 200px;
+  }
+
+  .submenu__link {
+    font-size: var(--font-medium);
+  }
+
+  .submenu {
+    /* display: block; */
+    position: absolute;
+    left: -100px;
+  }
+
+  .header__img {
+    max-width: 10rem;
+  }
+
+  .header__text_logo {
+    font-size: var(--font-small);
+  }
+
+  .header__box {
+    justify-content: space-between;
+    padding: 0;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header__img {
+    max-width: 10rem;
+  }
+
+  .header__text_logo {
+    font-size: var(--font-small);
+    transition: all 0.3s ease-in-out;
+  }
+}

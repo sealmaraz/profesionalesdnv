@@ -1,0 +1,15 @@
+/* fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,300;0,400;0,500;0,600;1,400;1,500;1,600&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* misc*/
+@import url(./misc/normalize.css);
+@import url(./misc/vars.css);
+
+/* partials */
+@import url(./partials/footer.css);
+@import url(./partials/header.css);
+@import url(./partials/aside.css);
+
+/* pages */
+@import url(./pages/home.css);
+@import url(./pages/institucional.css);
