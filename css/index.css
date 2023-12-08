@@ -8,6 +8,8 @@
 /* partials */
 @import url(./partials/footer.css);
 @import url(./partials/header.css);
+@import url(./partials/aside.css);
 
 /* pages */
 @import url(./pages/home.css);
+@import url(./pages/institucional.css);

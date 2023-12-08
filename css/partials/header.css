@@ -107,7 +107,7 @@ header {
   border-radius: 3px;
   background-color: var(--secondary-color-900);
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .navbar__link:hover {
     border-radius: 3px;
     background-color: var(--secondary-color-900);
@@ -123,7 +123,7 @@ header {
 }
 
 /* RESPONSIVE PARA DISPOSITIVOS MEDIANOS */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 870px) {
 
   header {
     font-family: var(--primary-font);
