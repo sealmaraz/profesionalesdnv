@@ -66,19 +66,19 @@ header {
   font-family: var(--alternative-font);
   padding: var(--spacing-8) var(--spacing-18);
   display: inline-block;
-  transition: all 0.3s ease-in-out;
+  /* transition: all 0.3s ease-in-out; */
 }
 
-.navbar__link:hover {
+/* .navbar__link:hover {
   border-radius: 3px;
   background-color: var(--secondary-color-900);
-}
+} */
 
 .submenu__item {
   width: 300px;
   background-color: var(--primary-color-solid);
   padding: var(--spacing-12) var(--spacing-18);
-  transition: all 0.3s ease-in-out;
+  /* transition: all 0.3s ease-in-out; */
   text-align: left;
 }
 
@@ -107,6 +107,14 @@ header {
   border-radius: 3px;
   background-color: var(--secondary-color-900);
 }
+@media screen and (min-width: 769px) {
+  .navbar__link:hover {
+    border-radius: 3px;
+    background-color: var(--secondary-color-900);
+  }
+  .navbar__link{
+  transition: all 0.3s ease-in-out;}
+}
 
 @media screen and (max-width: 1024px) {
   .header__text_logo {
@@ -115,14 +123,8 @@ header {
 }
 
 /* RESPONSIVE PARA DISPOSITIVOS MEDIANOS */
-@media screen and (max-width: 768px) {
-  .navbar__toggle {
-    z-index: 100;
-    display: block;
-  }
-.navbar__toggle:hover{
-  cursor: pointer;
-}
+@media screen and (max-width: 870px) {
+
   header {
     font-family: var(--primary-font);
     color: var(--light-color-900);
@@ -130,6 +132,20 @@ header {
     padding: var(--spacing-18);
     padding: 0 auto;
     height: 10vw;
+  }
+
+  .navbar__toggle {
+    z-index: 100;
+    display: block;
+  }
+
+  .navbar__toggle:hover {
+    cursor: pointer;
+  }
+
+  .navbar__link:hover {
+    border-radius: 3px;
+    /* background-color: var(--secondary-color-900); */
   }
 
   .navbar {
@@ -144,6 +160,7 @@ header {
   .navbar-active {
     right: 0;
   }
+
   .navbar__menu {
     position: relative;
     display: block;
@@ -160,6 +177,7 @@ header {
   .navbar__item:hover {
     background-color: var(--secondary-color-900);
   }
+
   .submenu__item {
     width: 200px;
   }
@@ -167,11 +185,13 @@ header {
   .submenu__link {
     font-size: var(--font-medium);
   }
+
   .submenu {
     /* display: block; */
     position: absolute;
     left: -100px;
   }
+
   .header__img {
     max-width: 10rem;
   }
