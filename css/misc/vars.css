@@ -7,15 +7,22 @@
     /* FF3333 - Color Primario - Verde */
     --primary-color-solid: rgba(31, 111, 84,1);
     --primary-color-900: rgba(31, 111, 84, 0.9);
+    --primary-color-700: rgba(31, 111, 84, 0.7);
+    --primary-color-600: rgba(31, 111, 84, 0.6);
     --primary-color-500: rgba(31, 111, 84, 0.5);
     --primary-color-300: rgba(31, 111, 84, 0.3);
 
     /* 1D84B5 - Color Secundario - Naranja */
     --secondary-color-solid: rgba(248,105,0,1);
     --secondary-color-900: rgba(248,105,0, 0.9);
+    --secondary-color-700: rgba(248,105,0, 0.7);
+    --secondary-color-600: rgba(248,105,0, 0.6);
     --secondary-color-500: rgba(248,105,0, 0.5);
     --secondary-color-300: rgba(248,105,0, 0.3);
     --secondary-color-200: rgba(248,105,0, 0.2);
+
+    /* #F0CC21 */
+    --terciary-color-solid: rgba(240,204,33,1);
 
     /* 1F1F1F - Color Oscuro - Negro */
     --dark-color-solid: rgba(31, 31, 31, 1.0);

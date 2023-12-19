@@ -4,6 +4,8 @@
     /* width: 100%; */
     grid-template-areas:
         "aside_l articlec aside_r"
+        "aside_l articlec aside_r"
+        "aside_l articlec aside_r"
         "aside_l articlec aside_r";
     grid-template-columns: minmax(max-content, 100px) 1fr 10%;
     grid-gap: 20px;
@@ -19,10 +21,93 @@
     grid-gap: 10px;
 }
 
+.article_sede {
+    margin: 0 auto;
+    font-size: var(--font-normal);
+    font-family: var(--alternative-font);
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    justify-content: center;
+    max-width: 1024px;
+}
+
+.article-img_1 {
+    max-width: 400px;
+}
+
+.article-img_2,
+.article-img_3 {
+    max-width: 500px;
+}
+
+.article-iframe {
+    width: 100%;
+}
+
 .icono_objetivo {
     font-size: 5rem;
 }
 
+.article-funcion {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 10px;
+}
+
+.box {
+    font-family: var(--alternative-font);
+    font-size: var(--font-small);
+    font-weight: 500;
+    text-align: justify;
+    align-items: center;
+    margin-top: 10px;
+    box-shadow: 4px 4px 4px var(--dark-color-500);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box-background_primary{
+    background-color: var(--secondary-color-700);
+}
+
+.box-background_terciary{
+    background-color: var(--terciary-color-solid);
+}
+.box-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.box-2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.box-3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+.box-4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+.box-5{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+.box-title{
+    margin-bottom: 10px;
+}
 .aside_left {
     font-size: var(--font-normal);
     font-family: var(--alternative-font);
@@ -51,7 +136,7 @@
     min-height: 200px;
     height: max-content;
     border-radius: 10px;
-    background-color: var(--secondary-color-900);
+    background-color: var(--secondary-color-700);
 }
 
 .article_texto {
@@ -75,5 +160,20 @@
     .icono_objetivo {
         font-size: 20px;
 
+    }
+
+    .article-iframe {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .article_sede {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .article-iframe {
+        max-width: 100%;
+        max-height: 200px;
     }
 }
