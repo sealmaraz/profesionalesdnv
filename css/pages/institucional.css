@@ -36,6 +36,10 @@
     max-width: 1024px;
 }
 
+.article-box7{
+    display: grid;
+}
+
 .article-img_1 {
     max-width: 400px;
 }
