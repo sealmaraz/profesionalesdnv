@@ -13,6 +13,8 @@
     grid-template-columns: minmax(220px, 100px) 1fr;
     grid-gap: 20px;
     grid-auto-rows: auto;
+    padding-top: 220px
+    
 }
 
 .article_contenido_grid {
@@ -218,6 +220,7 @@
         grid-template-areas:
             "articlec";
         grid-template-columns: 1fr;
+        padding-top: 120px
     }
 
     .article_contenido_grid {
@@ -248,7 +251,7 @@
     border: 1px solid;
 }
 .article-parrafos{
-    background-color:transparent;
+    background-color:revert;
 }
 .article-afiliacion{
     height: 12em;
@@ -260,8 +263,7 @@
 }
 
 .article-funcion{
-    display: grid;
-    grid-template-columns: 3fr;
+    all:unset;
 }
     .article-iframe {
         max-width: 100%;
