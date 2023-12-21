@@ -1,0 +1,22 @@
+.sbeneficios{
+   height: 100vw;
+}
+.banner{
+   padding-top: 11vw;
+   height: 40vw;
+   /* background: linear-gradient(grey, white); */
+}
+.banner__1{
+   margin: 0 auto;
+   width: 60%;
+   text-align: center;  
+   /* background-color:#dfdfdf; */
+   background: linear-gradient(lightgrey, white,lightgrey);
+   border-radius: 20px;
+   height: 500px;
+}
+
+.banner__img{
+   width: auto;
+   height:100%;
+}
