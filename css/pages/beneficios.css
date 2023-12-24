@@ -16,13 +16,13 @@
    /* background-color:#dfdfdf; */
    background: linear-gradient(lightgrey, white,lightgrey);
    /* border-radius: 20px; */
-   height:  500px;
+   /* height:  500px; */
 }
 
-.banner__img{
+/* .banner__img{
    width: auto;
-   /* height:100%; */
-}
+   height:100%;
+} */
 
 .iconify_chevron{
    color: var(--dark-color-solid);
