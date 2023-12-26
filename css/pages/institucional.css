@@ -13,7 +13,7 @@
     grid-template-columns: minmax(220px, 100px) 1fr;
     grid-gap: 20px;
     grid-auto-rows: auto;
-    padding-top: 220px
+    /* padding-top: 220px */
 }
 
 .article_contenido_grid {
@@ -262,7 +262,7 @@
         grid-template-areas:
             "articlec";
         grid-template-columns: 1fr;
-        padding-top: 120px
+        /* padding-top: 120px */
     }
 
     .article_contenido_grid {

@@ -1,11 +1,9 @@
-/* .sbeneficios{
-   height: 100vw;
-} */
 .banner{
    width: 100%;
-   height: auto;
-   padding-top: 11vw;
-   padding-bottom: 11vw;
+   height: min-content;
+   padding-top: 30px;
+   /* padding-top: 11vw; */
+   /* padding-bottom: 11vw; */
    /* height: 40vw; */
    /* background: linear-gradient(grey, white); */
 }
@@ -28,4 +26,7 @@
    color: var(--dark-color-solid);
    font-size: var(--font-small);
    font-weight: 700;
+}
+.glide__bullets:hover{
+   color:var(--primary-color-900);
 }
