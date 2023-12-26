@@ -1,7 +1,17 @@
 /* Estilos del body del Home */
-.principal{
+.img_principal{
+    background-image: url(../../img/equipo.jpg);
+    /* padding: var(--spacing-128); */
+    height: 50vh;
+    background-size:cover;
+    /* background-attachment: fixed; */
+    /* filter: blur(2px) brightness(.9); */
+}
+
+.home{
     height: 100vh;
 }
+
 
 .wsp_float{
     position: fixed;
