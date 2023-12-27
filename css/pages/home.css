@@ -15,14 +15,14 @@
 }
 
 .banner__img1{
+    transition:all .5s ease-in-out;
     border-radius: 10px;
-    box-shadow: 0px 1px 15px rgba(0,0,0,0.6);;
+    box-shadow: 1px 10px 15px rgba(0,0,0,0.6);;
 }
 
-.banner__img1:hover{
-
-    transform: scale(1.8);
-    transition: all 0.3s ease-in-out;
+.banner_container:hover .banner__img1{
+    object-fit: cover;    
+    transform: scale(1.4);
 }
 
 .main_text{
