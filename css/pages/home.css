@@ -17,7 +17,7 @@
 .banner__img1{
     transition:all .5s ease-in-out;
     border-radius: 10px;
-    box-shadow: 1px 10px 15px rgba(0,0,0,0.6);;
+    box-shadow: 1px 10px 15px rgba(0,0,0,0.6);
 }
 
 .banner_container:hover .banner__img1{
