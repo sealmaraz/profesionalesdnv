@@ -36,3 +36,7 @@
 .glide__bullets:hover{
    color:var(--primary-color-900);
 }
+
+.relleno{
+   height: 50vh;
+}
