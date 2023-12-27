@@ -8,8 +8,8 @@ let altoPantalla = screen.height;
 
 let altoSection = altoPantalla - altoFooter - altoHeader;
 
-main.classList.add('alto_main');
-console.log(element.clientHeight);
-console.log(element2.clientHeight);
-console.log(screen.height);
-console.log(altoSection);
+// main.classList.add('alto_main');
+// console.log(element.clientHeight);
+// console.log(element2.clientHeight);
+// console.log(screen.height);
+// console.log(altoSection);
