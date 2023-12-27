@@ -13,6 +13,12 @@
     bottom: 30px;
     left: 30px;
 }
+
+.banner__img1{
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.8);;
+}
+
 .main_text{
     color: var(--light-bg-color-solid) ;
     text-shadow: 0px 1px 10px rgba(0,0,0,0.9);
@@ -20,10 +26,14 @@
     font-size: var(--font-xlarge);
     font-weight: 700;
 }
-.alto_main{
-    height: 100vh;
+
+.main_principal{
+    padding: 5px 100px;
 }
 
+.banner_container{
+    text-align:  center;
+}
 .wsp_float{
     position: fixed;
     width: 60px;
@@ -35,15 +45,16 @@
     border-radius: 52px;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
  }
-/*.main_principal{
-    position: absolute;
-}*/
-.banner_sorteos{
-    align-self: center;
-    width: 80%;
-}
+
 @media screen and (max-width: 430px) {
     .main_text{
         font-size: var(--font-inter);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .banner__img1{
+        width: auto;
+        max-height: 400px;
     }
 }

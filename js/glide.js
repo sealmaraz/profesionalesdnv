@@ -1,7 +1,7 @@
 
 new Glide('.glide', {
     type: 'carousel',
-    perView: 3,
-    // gap: 30,
+    perView: 4,
+    gap: 30,
     startAt: 0,
 }).mount();
