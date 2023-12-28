@@ -57,8 +57,6 @@
         font-size: var(--font-inter);
     }
     .banner__img1{
-        /* padding: 0px 100px ; */
-        /* width: auto; */
         max-height: 200px;
     }
 }

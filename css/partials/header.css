@@ -164,6 +164,7 @@ header {
   }
 
   .navbar__menu {
+    z-index: 200;
     position: relative;
     display: block;
     height: 100%;
