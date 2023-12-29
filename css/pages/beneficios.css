@@ -2,7 +2,9 @@
    /* padding: 100px; */
    text-align: center;
 }
-
+.title_alojamiento{
+   font-size: 2rem;
+}
 .banner__img {
    border-radius: 15px;
    background-size: cover;
@@ -21,7 +23,4 @@
    color: var(--primary-color-900);
 }
 
-.relleno {
-   height: 80vh;
-   padding: 20px;
-}
+
