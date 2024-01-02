@@ -18,7 +18,7 @@
    border-radius: 15px;
    /* background-size: cover; */
    width: min-content;
-   height: 200px;
+   height: 250px;
 }
 .iconify_chevron {
    color: var(--dark-color-solid);
@@ -30,12 +30,13 @@
    color: var(--primary-color-900);
 }
 
-/* .detalle_departamento{
+.detalle_departamento{
    display: flex;
    flex-wrap: wrap;
    gap: 20px;
    padding: 10px;
-} */
+   justify-content: center;
+}
 
 /* .banner_departamentos{
    width: 50%;
@@ -49,4 +50,21 @@
 .glider-next,
 .glider-prev{
    font-size: 3em;
+}
+
+.carousel{
+   width: 40%;
+}
+
+.glider_text{
+   margin-left: 10px;
+   width: 50%;
+}
+
+.glider-slide{
+   margin-top: 15px;
+}
+
+.glider-dots{
+   flex-wrap: nowrap;
 }
