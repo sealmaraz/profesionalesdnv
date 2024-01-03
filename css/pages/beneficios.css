@@ -57,7 +57,7 @@
 }
 
 .glider_text{
-   font-family: var(--terciary-font);
+   /* font-family: var(--terciary-font); */
    display: flex;
    flex-direction: column;
    justify-content: space-evenly;
@@ -66,20 +66,27 @@
    padding: 10px 20px;
 }
 
-.glider_text h3{
+.title_subsidio{
+   font-family: var(--terciary-font);
    font-size: var(--font-msmall);
-   font-weight: 520;
+   font-weight: 580;
 }
-.glider_text h2{
+
+.text_subsidio{
+   font-weight: 450;
+   font-family: var(--terciary-font);
+   font-size: var(--font-xsmall);
+}
+/*.glider_text h2{
    font-size: var(--font-msmall);
    
-}
+} */
 .glider-slide{
    margin-top: 15px;
 }
 
 .glider-dots{
-   flex-wrap: nowrap;
+   flex-wrap: wrap;
 }
 
 .wsp_reserva:hover .icon_reserva{
@@ -91,17 +98,18 @@
    text-align: center;
    font-size: var(--font-xsmall);
    color: var(--primary-color-solid);
-   font-weight: 600;
+   font-weight: 650;
 }
 
 .detalle_subsidio{
+   width: 70%;
    display: flex;
    flex-direction: column;
    justify-content: space-evenly;
    padding: 25px;
 }
 
-.detalle_subsidio h3, li{
+/* .detalle_subsidio h3{
    font-family: var(--terciary-font);
    font-size: var(--font-small);
    font-weight: 520;
@@ -109,11 +117,12 @@
 
 .detalle_subsidio h2{
    font-size: var(--font-msmall);
-}
+} */
 .linea {
    position: relative;
    z-index: 1;
  }
+
 .linea:before {
    border-top: 5px solid var(--primary-color-solid);
    content: "";
@@ -126,8 +135,17 @@
    width: 95%;
    z-index: -1;
  }
+
 .linea span {
- 
    background: #fff;
-   padding: 0 15px;
+   padding: 0 10px;
+ }
+
+ .title_alojamiento{
+   margin-left: 0;
+   padding: 40px;
+ }
+ 
+ .lista_beneficio{
+   padding: 5px;
  }
