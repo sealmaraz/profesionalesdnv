@@ -198,8 +198,8 @@
    background-size:contain;
    background-repeat: no-repeat;
    width: 100%;
-   height: 300px;
-   background-image: url(../../img/convenio_hoteles/logoCenturiaHotel.png);
+   min-height: 300px;
+   background-image: url(../../img/convenio_hoteles/hotelCenturia.jpg);
    background-position: center;
 }
 
@@ -208,7 +208,7 @@
    background-repeat: no-repeat;
    width: 100%;
    height: 300px;
-   background-image: url(../../img/convenio_hoteles/HA1.png);
+   background-image: url(../../img/convenio_hoteles/hotelAvenida.jpg);
    background-position: center;
 }
 .detalle_uthgra{
@@ -216,15 +216,16 @@
    background-repeat: no-repeat;
    width: 100%;
    height: 300px;
-   background-image: url(../../img/convenio_hoteles/hotelUthgra.jpeg);
+   background-image: url(../../img/convenio_hoteles/hotelUthgra.jpg);
    background-position: center;
 }
 
 .opacidad{
-   opacity: 0.2;
+   opacity: 0.6;
 }
 
 .tarifas{
+
    position: absolute;
    text-align: left;
    top: 25%;
@@ -233,12 +234,13 @@
    font-family: var(--terciary-font);
    font-weight: 600;
    opacity:1;
-   color: black;
+   color:black;
 }
 @media screen and (max-width: 768px) {
    .detalle_subsidio{
       width: 100%;
    }
+
    .hotel{
       width: 100%;
    }
