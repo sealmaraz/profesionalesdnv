@@ -67,6 +67,7 @@
 }
 
 .title_subsidio{
+   /* padding: 10px; */
    font-family: var(--terciary-font);
    font-size: var(--font-msmall);
    font-weight: 580;
@@ -158,9 +159,14 @@
 
 
 /*Convenio con hoteles*/
-.title_convenioHoteles{
-   padding: 0px 45px;
+
+.info_convenios{
+   margin-left: 20px;
+   padding: 0 25px;
 }
+/* .title_convenioHoteles{
+   padding: 0px 45px;
+} */
 
 .detalle_convenioHoteles{
    margin-top: 20px;
@@ -201,6 +207,10 @@
    height: 430px;
    background-image: url(../../img/convenio_hoteles/hotelAvenida.png);
    background-position: center;
+   /* z-index: 5; */
+}
+.detalle_avenida:hover + .tarifas{
+display: block;
 }
 
 .detalle_centuria{
@@ -213,6 +223,11 @@
    background-position: center;
 }
 
+.detalle_centuria:hover + .tarifas{
+   display: block;
+   }
+   
+
 .detalle_uthgra{
    background-size: contain;
    background-repeat: no-repeat;
@@ -222,21 +237,27 @@
    background-position: center;
 }
 
+.detalle_uthgra:hover + .tarifas{
+   display: block;
+   }
 .opacidad{
-   opacity: 0.4;
+   opacity: 0.8;
 }
 
 .tarifas{
-
+   display: none;
    position: absolute;
    text-align: left;
-   top: 30%;
-   right: 10px;
-   left: 10px;
+   top: 20%;
+   /* right: 10px; */
+   /* left: 10px; */
+   padding: 10px;
    font-family: var(--terciary-font);
    font-weight: 700;
    opacity:1;
-   color:black;
+   color:white;
+   background-color: rgba(31, 31, 31, 0.5);
+   min-height: 200px;
 }
 @media screen and (max-width: 768px) {
    .detalle_subsidio{
