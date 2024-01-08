@@ -257,6 +257,12 @@
    }
 }
 
+@media screen and (max-width: 460px) {
+   .detalle_avenida, .detalle_centuria, .detalle_uthgra{
+      height: 300px;
+   }
+}
+
 /* @media screen and (min-width: 320px) and (max-width: 767px) {
    .detalle_subsidio{
       width: 100%;
