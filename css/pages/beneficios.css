@@ -248,12 +248,7 @@ display: block;
    position: absolute;
    text-align: left;
    top: 20%;
-   /* right: 10px; */
-   /* left: 10px; */
    padding: 10px;
-   top: 30%;
-   /* right: 10px; */
-   /* left: 10px; */
    font-family: var(--terciary-font);
    font-weight: 700;
    opacity:1;
