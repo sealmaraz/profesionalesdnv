@@ -243,7 +243,20 @@
       width: 100%;
    }
 
-   .hotel{
+   /*.hotel{
       width: 100%;
-   }
+   } */
  }
+
+ @media screen and (max-width: 900px) {
+   .detalle_avenida{
+      height: 300px;
+      transition:all 3s ease-in-out;
+   }
+   .detalle_centuria{
+      height: 300px;
+   }
+   .detalle_uthgra{
+      height: 300px;
+   } 
+}
