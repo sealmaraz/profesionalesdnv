@@ -15,15 +15,5 @@
     <link rel="shortcut icon" href="./img/logoasociacion.ico" type="image/x-icon">
 </head>
 <body>
-    <!-- Vinculacion con Libreria Iconify 1.0.7 -->
-    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
-</body>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asociación Gremial de Profesionales y Personal Superior de Vialidad Nacional</title>
-</head>
-<body>
 </body>
 </html>
