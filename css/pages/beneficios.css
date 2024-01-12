@@ -1,3 +1,5 @@
+/* Banner imágenes de beneficios */
+
 .banner__1 {
    /* padding: 100px; */
    text-align: center;
@@ -35,7 +37,7 @@
    flex-wrap: wrap;
    gap: 30px;
    padding: 10px;
-   justify-content: center;
+   justify-content: space-evenly;
 }
 
 /* .banner_departamentos{
@@ -50,10 +52,6 @@
 .glider-next,
 .glider-prev{
    font-size: 3em;
-}
-
-.carousel{
-   width: 40%;
 }
 
 .glider_text{
@@ -264,6 +262,39 @@ display: block;
 .tarifas_visible{
    display: block;
 }
+
+.carousel{
+   width: 40%;
+}
+
+
+/* Precarga imagenes banner departamentos */
+
+.loading {
+   /* display: flex; */
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   /* width: 45%; */
+   background: fff;
+   /* color: white; */
+   justify-content: center;
+   align-items: center;
+   display: none;
+ }
+
+ .loading--show {
+   display: flex;
+ }
+
+ /* .carousel--show {
+   display: flex;
+ } */
+
+ /* Fin estilos Precarga imagenes banner departamentos */
+
 @media screen and (max-width: 768px) {
    .detalle_subsidio{
       width: 100%;

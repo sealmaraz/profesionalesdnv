@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Linea para redireccionar hacia el Home -->
     <!-- Nota: el primer valor de "content" es el delay en segundos para redireccionar -->
-    <meta http-equiv="refresh" content="0;url=pages/home.html">
+    <meta http-equiv="refresh" content="0;url=pages/home.php">
     <title>Asociación Gremial de Profesionales y Personal Superior de Vialidad Nacional</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="shortcut icon" href="./img/logoasociacion.ico" type="image/x-icon">
