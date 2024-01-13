@@ -62,3 +62,4 @@
       crossorigin="anonymous"
     ></script>
     <script src="../js/glideDepartamentos.js"></script>
+    <script src="../../js/loading.js"></script>
