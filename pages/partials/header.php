@@ -61,7 +61,7 @@
                 <a class="navbar__link" href="./beneficios.php">Beneficios</a>
             </li>
             <li class="navbar__item submenuopen">
-                <a class="navbar__link" href="./capacitacion.php">Actividad Gremial</a>
+                <a class="navbar__link" href="./actividadGremial.php">Actividad Gremial</a>
             </li>
             <li class="navbar__item submenuopen">
                 <a class="navbar__link" href="./contacto">Contacto</a>

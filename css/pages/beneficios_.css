@@ -1,6 +1,5 @@
 /* Baner superior */
 .banner_principal{
-   display: flex;
    padding: 10px 100px;
 }
 
@@ -41,7 +40,7 @@
    flex-wrap: wrap;
    gap: 30px;
    padding: 10px;
-   justify-content: center;
+   justify-content: space-evenly;
 }
 
 /* .banner_departamentos{
@@ -56,10 +55,6 @@
 .glider-next,
 .glider-prev{
    font-size: 3em;
-}
-
-.carousel{
-   width: 40%;
 }
 
 .glider_text{
@@ -270,37 +265,24 @@ display: block;
 .tarifas_visible{
    display: block;
 }
-/* Colocando estilos loading */
+/* Loading */
 .loading {
    position: fixed;
    top: 0;
    left: 0;
    right: 0;
    bottom: 0;
-   height: 100vh;
-   overflow-x: hidden;
    background: #fff;
-   color:#000;
+   color: black;
    justify-content: center;
    align-items: center;
    font-size: 2rem;
    display: none;
-   z-index: 10;
  }
 
  .loading--show {
    display: flex;
  }
-
- .icon-preload{
-   color: #000;
-   z-index: 1000;
- }
-
- .desaparecer{
-   display: none;
- }
- /* Fin estilos loading */
 
 @media screen and (max-width: 768px) {
    .detalle_subsidio{

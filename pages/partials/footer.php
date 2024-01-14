@@ -61,5 +61,7 @@
       integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD"
       crossorigin="anonymous"
     ></script>
+    <script src="../../js/comunicados.js"></script>
     <script src="../../js/glideDepartamentos.js"></script>
     <script src="../../js/loading.js"></script>
+    
