@@ -5,10 +5,12 @@ header {
   font-family: var(--primary-font);
   color: var(--light-color-900);
   background-color: var(--primary-color-solid);
-  padding: var(--spacing-36);
+  padding: var(--spacing-26);
   min-height: 100px;
   border-bottom-style: ridge;
   border-bottom-color: var(--secondary-color-solid);
+  transition: all 0.4s ease-in-out;
+  z-index: 100;
 }
 
 .header__img {
@@ -162,6 +164,7 @@ header {
   }
 
   .navbar__menu {
+    z-index: 200;
     position: relative;
     display: block;
     height: 100%;
@@ -206,8 +209,36 @@ header {
     gap: 10px;
   }
 }
+@media screen and (min-width: 1416px) {
+  .hidden_menu{
+    position:fixed !important;
+    top: 0;
+    transform: translateY(-70px) !important;
+    transition: all 0.2s ease-in-out !important;
+  }
 
-@media screen and (max-width: 480px) {
+  .change_img{
+    position: absolute !important;
+    margin-top: 125px !important;
+    transform: scale(0.8) !important;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1415px) {
+  .hidden_menu{
+    transform: translateY(-100px) !important;
+    transition: all 0.2s ease-in-out !important;
+  }
+
+  .change_img{
+    position: absolute !important;
+    margin-top: 150px !important;
+    margin-left: 2px !important;
+    transform: scale(0.6) !important;
+  }
+}
+
+@media screen and (max-width: 430px) {
+
   .header__img {
     max-width: 10rem;
   }

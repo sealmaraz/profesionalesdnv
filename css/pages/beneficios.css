@@ -1,0 +1,305 @@
+/* Baner superior */
+.banner_principal{
+   display: flex;
+   padding: 10px 100px;
+}
+
+.banner__1 {
+   /* padding: 100px; */
+   text-align: center;
+}
+.title_alojamiento{
+   padding: 10px;
+   font-size: 2rem;
+}
+.banner__img {
+   border-radius: 15px;
+   background-size: cover;
+   width: 100%;
+   height: 100%;
+   /* box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.6); */
+}
+
+.banner__img1 {
+   border-radius: 15px;
+   /* background-size: cover; */
+   width: min-content;
+   height: 250px;
+}
+.iconify_chevron {
+   color: var(--dark-color-solid);
+   font-size: var(--font-small);
+   font-weight: 700;
+}
+
+.glide__bullets:hover {
+   color: var(--primary-color-900);
+}
+
+.detalle_departamento{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+   padding: 10px;
+   justify-content: space-evenly;
+}
+
+/* .banner_departamentos{
+   width: 50%;
+} */
+
+.glider1{
+   margin-bottom: 10px;
+   overflow: hidden;
+}
+
+.glider-next,
+.glider-prev{
+   font-size: 3em;
+}
+
+.glider_text{
+   /* font-family: var(--terciary-font); */
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   /* align-items: center; */
+   width: 50%;
+   padding: 10px 20px;
+}
+
+.title_subsidio{
+   /* padding: 10px; */
+   font-family: var(--terciary-font);
+   font-size: var(--font-msmall);
+   font-weight: 580;
+}
+
+.text_subsidio{
+   font-weight: 450;
+   font-family: var(--terciary-font);
+   font-size: var(--font-xsmall);
+}
+/*.glider_text h2{
+   font-size: var(--font-msmall);
+   
+} */
+.glider-slide{
+   margin-top: 15px;
+}
+
+.glider-dots{
+   flex-wrap: wrap;
+}
+
+.wsp_reserva:hover .icon_reserva{
+   transform: scale(1.4);
+}
+
+.link_protocolo{
+   padding: 10px;
+   text-align: center;
+   font-size: var(--font-small);
+   color: var(--primary-color-solid);
+   font-weight: 650;
+}
+
+.detalle_subsidio{
+   margin-left: 20px;
+   width: 95%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   padding: 0px 25px;
+}
+
+/* .detalle_subsidio h3{
+   font-family: var(--terciary-font);
+   font-size: var(--font-small);
+   font-weight: 520;
+}
+
+.detalle_subsidio h2{
+   font-size: var(--font-msmall);
+} */
+.linea {
+   position: relative;
+   z-index: 1;
+ }
+
+.linea:before {
+   border-top: 5px solid var(--primary-color-solid);
+   content: "";
+   margin: 0 auto;
+   position: absolute;
+   top: 50%;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   width: 95%;
+   z-index: -1;
+ }
+
+.linea span {
+   background: #fff;
+   padding: 0 10px;
+ }
+
+ .title_alojamiento{
+   margin-left: 0;
+   padding: 40px;
+ }
+ 
+ .lista_beneficio{
+   padding: 5px;
+ }
+
+ .cash{
+   font-size: var(--font-xsmall);
+   font-weight: 550;
+ }
+
+
+/*Convenio con hoteles*/
+
+.info_convenios{
+   margin-left: 20px;
+   padding: 0 25px;
+}
+/* .title_convenioHoteles{
+   padding: 0px 45px;
+} */
+
+.detalle_convenioHoteles{
+   margin-top: 20px;
+   margin-bottom: 20px;
+   justify-content: center;
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0px 25px;
+   gap: 10px;
+}
+.hotel{
+   display: flex;
+   flex-direction: column;
+   width: 49%;
+   margin: 0 auto; 
+   text-align: center;
+   position: relative;
+}
+
+.title_hotel{
+   display: flex;
+   flex-wrap: nowrap;
+   gap: 15px;
+   justify-content: center;
+   align-items: center;
+   font-family: var(--terciary-font);
+   font-size: var(--font-msmall);
+   font-weight: 550;
+   background: linear-gradient(to right top, #208764, #568d4d, #838f3a, #b08d37, #da8649);
+   margin-bottom: 10px;
+   padding: 10px 0;
+}
+
+.text_convenioHoteles{
+   margin: 10px;
+}
+
+.detalle_avenida{
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 430px;
+   background-image: url(../../img/convenio_hoteles/hotelAvenida.png);
+   background-position: center;
+   /* z-index: 5; */
+}
+.detalle_avenida:hover + .tarifas{
+display: block;
+}
+
+.detalle_centuria{
+   background-size:contain;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 430px;
+   background-image: url(../../img/convenio_hoteles/hotelCenturia.png);
+   background-position: center;
+}
+
+.detalle_centuria:hover + .tarifas{
+   display: block;
+   }
+   
+
+.detalle_uthgra{
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 430px;
+   background-image: url(../../img/convenio_hoteles/hotelUthgra.png);
+   background-position: center;
+}
+
+.detalle_uthgra:hover + .tarifas{
+   display: block;
+   }
+.opacidad{
+   opacity: 0.8;
+}
+
+.tarifas{
+   display: none;
+   position: absolute;
+   text-align: left;
+   top: 20%;
+   padding: 10px;
+   font-family: var(--terciary-font);
+   font-weight: 700;
+   opacity:1;
+   color:white;
+   background-color: rgba(31, 31, 31, 0.5);
+   min-height: 200px;
+}
+
+.tarifas_visible{
+   display: block;
+}
+@media screen and (max-width: 768px) {
+   .detalle_subsidio{
+      width: 100%;
+   }
+}
+
+.icon_infoHotel{
+   font-size: var(--font-msmall);
+}
+
+.icon_infoHotel:hover{
+   cursor: pointer;
+   transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 900px) {
+.detalle_convenioHoteles{
+   flex-direction: column;
+}
+
+.hotel{
+   width: 100%;
+}
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+   .tarifas{
+      padding: 0 15%;
+   }
+}
+
+@media screen and (max-width: 460px) {
+   .detalle_avenida, .detalle_centuria, .detalle_uthgra{
+      height: 300px;
+   }
+}
