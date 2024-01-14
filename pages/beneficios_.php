@@ -46,7 +46,7 @@ $title = "Beneficios";
       </li>
 
       <li class="glide__slide banner__1">
-        <img class="banner__img wait-loading" src="../img/banner_beneficios/asesoriaGremial.png" alt="" />
+        <img class="banner__img" src="../img/banner_beneficios/asesoriaGremial.png" alt="" />
       </li>
     </ul>
   </div>
@@ -69,7 +69,6 @@ $title = "Beneficios";
   <h2 class="linea title_alojamiento" id="alojamiento">
     <span class="t_alojamiento">Nuestros Departamentos</span>
   </h2>
-  <!-- <div class="container-loader"><iconify-icon icon="eos-icons:bubble-loading" width="50" height="50"></iconify-icon></div> -->
   <article class="detalle_departamento">
     <div class="carousel">
       <div class="glider-contain">
