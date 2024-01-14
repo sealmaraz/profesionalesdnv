@@ -45,11 +45,11 @@
       target="_blank"
       ><iconify-icon icon="logos:whatsapp-icon"></iconify-icon
     ></a>
-    <script src="../js/menu.js"></script>
-    <script src="../js/scroll.js"></script>
-    <script src="../js/calcularPantalla.js"></script>
+    <script src="../../js/menu.js"></script>
+    <script src="../../js/scroll.js"></script>
+    <script src="../../js/calcularPantalla.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-    <script src="../js/glide.js"></script>
+    <script src="../../js/glide.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.js"></script>
     <script
       src="https://kit.fontawesome.com/2c36e9b7b1.js"
@@ -61,5 +61,5 @@
       integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD"
       crossorigin="anonymous"
     ></script>
-    <script src="../js/glideDepartamentos.js"></script>
+    <script src="../../js/glideDepartamentos.js"></script>
     <script src="../../js/loading.js"></script>
