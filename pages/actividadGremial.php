@@ -995,8 +995,29 @@ $title = "Actividad Gremial";
     </div>
 </section> -->
 <section class="novedades container comunicados">
-    <article class="novedadesUp">
-        
+    <article class="comunicado">
+        <ul class="cards-news">
+            <li class="card">
+                <a href="http://" target="_blank"><p class="card-title">NUEVOS DESTINOS TURISTICOS</p></a>
+                <img class="card-img"></img>
+                <span class="card-epigrafe">foto con epigrafedssdfsfsdf sefsfsf</span>
+            </li>
+            <li class="card">
+                <a href="http://" target="_blank"><p class="card-title">NUEVOS DESTINOS TURISTICOS</p></a>
+                <img class="card-img"></img>
+                <span class="card-epigrafe">foto con epigrafedssdfsfsdf sefsfsf</span>
+            </li>
+            <li class="card">
+                <a href="http://" target="_blank"><p class="card-title">NUEVOS DESTINOS TURISTICOS</p></a>
+                <img class="card-img"></img>
+                <span class="card-epigrafe">foto con epigrafedssdfsfsdf sefsfsf</span>
+            </li>
+            <li class="card">
+                <a href="http://" target="_blank"><p class="card-title">NUEVOS DESTINOS TURISTICOS</p></a>
+                <img class="card-img"></img>
+                <span class="card-epigrafe">foto con epigrafedssdfsfsdf sefsfsf</span>
+            </li>
+        </ul>
     </article>
 </section>
 <?php include('../pages/partials/footer.php'); ?>

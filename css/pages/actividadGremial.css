@@ -98,6 +98,41 @@
 }
 
 /* INICIO DE ESTILOS DE NOVEDADES */
-.novedadesUp{
+.cards-news{
+    
+    gap: 20px;
     display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+/* Estilos de cards novedades */
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    line-height: 1.2em;
+    border-bottom: 1px solid #000;
+    height: 300px;
+}
+
+.card-title{
+    font-family: var(--terciary-font);
+    font-size: var(--font-normal);
+    font-weight: 600;
+    text-align: center;
+}
+
+.card-img{
+    text-align: center;
+    max-width:150px;
+    background-size:cover;
+    background-image: url('../../img/banner_departamentos/depto_11.jpeg');
+    height: 150px;
+}
+
+.card-epigrafe{
+    text-align: justify;
+    font-size: var(--font-xnormal);
 }
