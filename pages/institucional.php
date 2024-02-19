@@ -197,7 +197,13 @@ $title = "Institucional";
         </div>
     </article>
     <article>
-        <h2 class="article_title" id="aside_item7">Derechos de nuestros afiliados</h2>
+        <h2 class="article_title" id="aside_item7">¿Cómo puedo afiliarme?</h2>
+        <div class="box box-background_primary">
+        Para poder afiliarte, deberás imprimir el formulario para tal fin haciendo click en la ficha "AFILIATE" que se encuentra en el menú. Posteriormente, una vez que la hayas completado y firmado, podrás acercarle al Delegado de tu distrito quien dará continuidad al trámite.
+        </div>
+    </article>
+    <article>
+        <h2 class="article_title" id="aside_item8">Derechos de nuestros afiliados</h2>
         <div class="box box-background_secondary article-box7">
             <div class="article_derechos">Ser elegidos para
                 representar a los

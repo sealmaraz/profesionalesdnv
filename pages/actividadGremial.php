@@ -998,7 +998,7 @@ $title = "Actividad Gremial";
     <article class="comunicado">
         <ul class="cards-news">
             <li class="card">
-                <a href="http://" target="_blank"><p class="card-title">NUEVOS DESTINOS TURISTICOS</p></a>
+                <a href="http://" target="_blank"><p class="card-title">NOTA ELEVADA EN RECLAMO DE LOS DESPIDOS</p></a>
                 <img class="card-img"></img>
                 <span class="card-epigrafe">foto con epigrafedssdfsfsdf sefsfsf</span>
             </li>

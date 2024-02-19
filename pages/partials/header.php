@@ -67,7 +67,7 @@
                 <a class="navbar__link" href="./contacto">Contacto</a>
             </li>
             <li class="navbar__item submenuopen destacado">
-                <a class="navbar__link" href="./afiliate">Afiliate</a>
+                <a class="navbar__link" href="../../docs/Ficha_Asociación.pdf" target="_blank">Afiliate</a>
             </li>
         </ul>
     </nav>
