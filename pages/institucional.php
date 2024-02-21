@@ -17,7 +17,9 @@ $title = "Institucional";
             <li class="aside_item"><a class="aside_link" href="#aside_item6"><iconify-icon class="aside_icon" icon="uil:arrow-circle-right" style="color: #f86900;"></iconify-icon>¿Quién puede
                     afiliarse?</a>
             </li>
-            <li class="aside_item"><a class="aside_link" href="#aside_item7"><iconify-icon class="aside_icon" icon="uil:arrow-circle-right" style="color: #f86900;"></iconify-icon>Derechos de nuestros
+            <li class="aside_item"><a class="aside_link" href="#aside_item7"><iconify-icon class="aside_icon" icon="uil:arrow-circle-right" style="color: #f86900;"></iconify-icon>¿Cómo puedo afiliarme?</a>
+            </li>
+            <li class="aside_item"><a class="aside_link" href="#aside_item8"><iconify-icon class="aside_icon" icon="uil:arrow-circle-right" style="color: #f86900;"></iconify-icon>Derechos de nuestros
                     afiliados</a></li>
         </ul>
     </aside>

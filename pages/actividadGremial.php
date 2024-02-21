@@ -4,11 +4,11 @@ $title = "Actividad Gremial";
 <?php include('../pages/partials/header.php'); ?>
 <div Class="comunicado container">
     <ul class="menuNovedades">
-        <li class="underline">COMUNICADOS</li>
-        <li class="underline">NOVEDADES</li>
+        <li class="underline" onclick="showOculto_byID('comunicados_oculto','novedades_oculto');">COMUNICADOS</li>
+        <li class="underline" onclick="showOculto_byID('novedades_oculto','comunicados_oculto');">NOVEDADES</li>
     </ul>
 </div>
-<!-- <section class="comunicados container">
+<section class="comunicados container" id="comunicados_oculto">
     <div Class="comunicado">
         <div Class="tit_comunicado">
             ASOCIACIÓN GREMIAL DE PROFESIONALES Y PERSONAL SUPERIOR DE VIALIDAD NACIONAL
@@ -42,7 +42,7 @@ $title = "Actividad Gremial";
             Mayo/2022.
         </div>
         <hr>
-        <div Class="btn_comunicado" onclick="showOculto();">
+        <div Class="btn_comunicado" onclick="showOculto('oculto');">
             Ver comunicados anteriores
         </div>
         <div class="hidden_comunicados" id="oculto">
@@ -993,31 +993,46 @@ $title = "Actividad Gremial";
         </div>
 
     </div>
-</section> -->
-<section class="novedades container comunicados">
+</section>
+<section class="novedades container comunicados hidden_comunicados" id="novedades_oculto">
     <article class="comunicado">
         <ul class="cards-news">
             <li class="card">
-                <a href="http://" target="_blank"><p class="card-title">NOTA ELEVADA EN RECLAMO DE LOS DESPIDOS</p></a>
+                <a href="http://" target="_blank"><p class="card-title">Despidos de agentes ingresados en el año 2023</p></a>
                 <img class="card-img"></img>
-                <span class="card-epigrafe">foto con epigrafedssdfsfsdf sefsfsf</span>
+                <a href="../docs/novedades/Nota_despidos_ 2023_050124.pdf" target="_blank" rel="noopener noreferrer"><span class="card-epigrafe">Se realizó una presentación en contra de la decisión de avanzar con despidos de personal ingresado en el transcurso del año 2023 en forma indiscriminada.</span></a>
             </li>
-            <li class="card">
-                <a href="http://" target="_blank"><p class="card-title">NUEVOS DESTINOS TURISTICOS</p></a>
-                <img class="card-img"></img>
-                <span class="card-epigrafe">foto con epigrafedssdfsfsdf sefsfsf</span>
-            </li>
-            <li class="card">
-                <a href="http://" target="_blank"><p class="card-title">NUEVOS DESTINOS TURISTICOS</p></a>
-                <img class="card-img"></img>
-                <span class="card-epigrafe">foto con epigrafedssdfsfsdf sefsfsf</span>
-            </li>
-            <li class="card">
-                <a href="http://" target="_blank"><p class="card-title">NUEVOS DESTINOS TURISTICOS</p></a>
-                <img class="card-img"></img>
-                <span class="card-epigrafe">foto con epigrafedssdfsfsdf sefsfsf</span>
-            </li>
+
+                <!-- <li class="card">
+                    <a href="http://" target="_blank"><p class="card-title">NUEVOS DESTINOS TURISTICOS</p></a>
+                    <img class="card-img"></img>
+                    <span class="card-epigrafe">foto con epigrafedssdfsfsdf sefsfsf</span>
+                </li>
+                <li class="card">
+                    <a href="http://" target="_blank"><p class="card-title">NUEVOS DESTINOS TURISTICOS</p></a>
+                    <img class="card-img"></img>
+                    <span class="card-epigrafe">foto con epigrafedssdfsfsdf sefsfsf</span>
+                </li>
+                <li class="card">
+                    <a href="http://" target="_blank"><p class="card-title">NUEVOS DESTINOS TURISTICOS</p></a>
+                    <img class="card-img"></img>
+                    <span class="card-epigrafe">foto con epigrafedssdfsfsdf sefsfsf</span>
+                </li> -->
         </ul>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
     </article>
 </section>
 <?php include('../pages/partials/footer.php'); ?>
