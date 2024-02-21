@@ -15,5 +15,8 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "league/oauth2-google": "dev-main",
+        "phpmailer/phpmailer": "dev-master"
+    }
 }
