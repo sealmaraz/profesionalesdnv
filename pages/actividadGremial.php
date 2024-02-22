@@ -50,7 +50,7 @@ $title = "Actividad Gremial";
                 ASOCIACIÓN GREMIAL DE PROFESIONALES Y PERSONAL SUPERIOR DE VIALIDAD NACIONAL
                 <br>Inscripción Gremial N º 2264<br>www.profesionalesdnv.org.ar
             </div>
-            <div Class="contenido_comunicado">
+            <div>
                 Los días 13, 14 y 15 de octubre nuestra asociación gremial participó del IV Congreso de Turismo y Recreación Social y Sindical realizado en la ciudad de Santa Teresita partido de La Costa.<br>
                 El mismo fue organizado por la Rueda de Turismo Social y Sindical y se desarrolló en las instalaciones del Sindicato de Obreros Curtidores de la República Argentina.<br>
                 Contó con la presencia de más de 38 gremios, representantes del Ministerio de Turismo y Deportes de la Nación, de municipios, del Consejo Profesional del Turismo de la Provincia de Buenos Aires y Universidades Nacionales y Provinciales.<br>

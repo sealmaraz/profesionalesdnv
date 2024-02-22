@@ -19,7 +19,7 @@
 
 .article_contenido_grid {
     font-size: var(--font-small);
-    font-family: var(--alternative-font);
+    font-family: var(--terciary-font);
     margin-top: 10px;
     display: grid;
     grid-template-columns: 50px 1fr 50px 1fr;
@@ -29,7 +29,7 @@
 .article_sede {
     margin: 0 auto;
     font-size: var(--font-normal);
-    font-family: var(--alternative-font);
+    font-family: var(--terciary-font);
     margin-top: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
