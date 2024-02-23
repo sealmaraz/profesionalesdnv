@@ -64,7 +64,7 @@
                 <a class="navbar__link" href="./actividadGremial.php">Actividad Gremial</a>
             </li>
             <li class="navbar__item submenuopen">
-                <a class="navbar__link" href="./contacto">Contacto</a>
+                <a class="navbar__link" href="./contacto.php">Contacto</a>
             </li>
             <li class="navbar__item submenuopen destacado">
                 <a class="navbar__link" href="../../docs/Ficha_Asociación.pdf" target="_blank">Afiliate</a>
