@@ -80,6 +80,10 @@
     padding: 20px;
 }
 
+.contenido_comunicado{
+    padding: 0px 40px 40px;
+}
+
 .pie_comunicado {
     font-size: var(--font-xnormal);
     text-align: right;

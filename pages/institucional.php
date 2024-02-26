@@ -2,8 +2,8 @@
 $title = "Institucional";
 ?>
 <?php include("../pages/partials/header.php"); ?>
-<section class="sinstitucional container">
-    <!-- <section class="sinstitucional principal container"> -->
+<section class="sinstitucional container_Propio">
+    <!-- <section class="sinstitucional principal container_Propio"> -->
     <aside class="aside_left">
         <ul class="aside_menu">
             <li class="aside_item"><a class="aside_link" href="#aside_item1"><iconify-icon class="aside_icon" icon="uil:arrow-circle-right" style="color: #f86900;"></iconify-icon>¿Qué hacemos?</a></li>

@@ -65,11 +65,11 @@ $title = "Beneficios";
     <button class="glide__bullet" data-glide-dir="=2"></button>
   </div>
 </section>
-<section class="container">
+<section class="container_Propio">
   <h2 class="linea title_alojamiento" id="alojamiento">
     <span class="t_alojamiento">Nuestros Departamentos</span>
   </h2>
-  <!-- <div class="container-loader"><iconify-icon icon="eos-icons:bubble-loading" width="50" height="50"></iconify-icon></div> -->
+  <!-- <div class="container_Propio-loader"><iconify-icon icon="eos-icons:bubble-loading" width="50" height="50"></iconify-icon></div> -->
   <article class="detalle_departamento">
     <div class="carousel">
       <div class="glider-contain">

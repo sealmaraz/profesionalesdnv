@@ -48,10 +48,6 @@ header {
   font-size: var(--font-xlarge);
 }
 
-.navbar {
-  margin-top: 3em;
-}
-
 .navbar__menu {
   display: flex;
   justify-content: space-between;
@@ -60,6 +56,7 @@ header {
   align-items: center;
   position: relative;
   flex-grow: 1;
+  padding-left: 0;
 }
 
 .navbar__link {
@@ -150,8 +147,8 @@ header {
     border-radius: 3px;
     /* background-color: var(--secondary-color-900); */
   }
-
-  .navbar {
+  
+  .navbar_Propio {
     width: 200px;
     margin-top: 0;
     top: 100px;

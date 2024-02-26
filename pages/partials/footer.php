@@ -1,5 +1,5 @@
 <footer id="footer">
-      <section class="footer__redes container">
+      <section class="footer__redes container_Propio">
         <ul class="redes__lista">
           <li class="redes__item">
             <a
@@ -30,12 +30,12 @@
           </li>
         </ul>
       </section>
-      <p class="footer__line container"></p>
-      <p class="footer__info container">
+      <p class="footer__line container_Propio"></p>
+      <p class="footer__info container_Propio">
         Chacabuco 194 - 2° Piso A - C.A.B.A. -
         <iconify-icon icon="mingcute:phone-fill"></iconify-icon> 011 - 43343779
       </p>
-      <p class="footer__info container">
+      <p class="footer__info container_Propio">
         Todos los derechos reservados &copy; Profesionales DNV 2023
       </p>
     </footer>
@@ -45,8 +45,8 @@
       target="_blank"
       ><iconify-icon icon="logos:whatsapp-icon"></iconify-icon
     ></a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="../js/loading.js"></script>
-    <script src="../js/menu.js"></script>
     <script src="../js/scroll.js"></script>
     <script src="../js/calcularPantalla.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
@@ -65,5 +65,7 @@
     ></script>
     <script src="../js/comunicados.js"></script>
     <script src="../js/glideDepartamentos.js"></script>
+    <script src="../js/menu.js"></script>
+    
     
     

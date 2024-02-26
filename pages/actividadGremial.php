@@ -2,19 +2,19 @@
 $title = "Actividad Gremial";
 ?>
 <?php include('../pages/partials/header.php'); ?>
-<div Class="comunicado container">
+<div Class="comunicado container_Propio">
     <ul class="menuNovedades">
         <li class="underline" onclick="showOculto_byID('comunicados_oculto','novedades_oculto');">COMUNICADOS</li>
         <li class="underline" onclick="showOculto_byID('novedades_oculto','comunicados_oculto');">NOVEDADES</li>
     </ul>
 </div>
-<section class="comunicados container" id="comunicados_oculto">
+<section class="comunicados container_Propio" id="comunicados_oculto">
     <div Class="comunicado">
         <div Class="tit_comunicado">
             ASOCIACIÓN GREMIAL DE PROFESIONALES Y PERSONAL SUPERIOR DE VIALIDAD NACIONAL
             <br>Inscripción Gremial N º 2264<br>www.profesionalesdnv.org.ar
         </div>
-        <div>
+        <div class="contenido_comunicado">
             Habiendo tomado conocimiento de los expedientes EX-2021-76705250-APN- -DLP#DNV y EX-2021-76682665-APN- -DLP#DNV, por los cuales se pretende entregar el Campamento de General Acha al Ministerio de Seguridad de la provincia de La Pampa y al SENASA respectivamente, los trabajadores del 21° Distrito de la Dirección Nacional de Vialidad manifiestan su preocupación y total rechazo a la entrega del patrimonio que tanto costo conseguir.<br><br>
             El campamento de General Acha es el que debería ser utilizado como base para el mantenimiento de la Ruta Nacional Nº 152, una de las más importantes y en peor estado de la Provincia y además es el centro logístico más cercano y estratégicamente ubicado para albergar a los agentes que deben operar los puestos de control de pesos y dimensiones ubicados en Padre Buodo y en General Acha.<br><br>
             También recordemos que este Campamento siempre fue por su ubicación geográfica, un centro de operaciones estratégico también para los equipos de medición y de relevamiento de la Repartición, incluso como vivienda de paso para agentes de Casa Central y otros Distritos que se desplazan hacia el sur del país, ya que está ubicado a unos 700 Km. de CABA como para ser un buen punto de descanso y luego continuar las 5 horas de viaje restantes hasta la ciudad de Neuquén, por ejemplo.<br><br>
@@ -50,7 +50,7 @@ $title = "Actividad Gremial";
                 ASOCIACIÓN GREMIAL DE PROFESIONALES Y PERSONAL SUPERIOR DE VIALIDAD NACIONAL
                 <br>Inscripción Gremial N º 2264<br>www.profesionalesdnv.org.ar
             </div>
-            <div>
+            <div class="contenido_comunicado">
                 Los días 13, 14 y 15 de octubre nuestra asociación gremial participó del IV Congreso de Turismo y Recreación Social y Sindical realizado en la ciudad de Santa Teresita partido de La Costa.<br>
                 El mismo fue organizado por la Rueda de Turismo Social y Sindical y se desarrolló en las instalaciones del Sindicato de Obreros Curtidores de la República Argentina.<br>
                 Contó con la presencia de más de 38 gremios, representantes del Ministerio de Turismo y Deportes de la Nación, de municipios, del Consejo Profesional del Turismo de la Provincia de Buenos Aires y Universidades Nacionales y Provinciales.<br>
@@ -994,7 +994,7 @@ $title = "Actividad Gremial";
 
     </div>
 </section>
-<section class="novedades container comunicados hidden_comunicados" id="novedades_oculto">
+<section class="novedades container_Propio comunicados hidden_comunicados" id="novedades_oculto">
     <article class="comunicado">
         <ul class="cards-news">
             <li class="card">

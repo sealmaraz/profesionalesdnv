@@ -9,6 +9,7 @@
       href="../img/logoasociacion.ico"
       type="image/x-icon"
     />
+    
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css"
@@ -17,10 +18,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css"
     />
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
     />
+    
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.css"
@@ -31,6 +34,7 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
+    
     <link rel="stylesheet" href="../css/index.css" />
     <title><?php echo $title;?></title>
   </head>
@@ -46,7 +50,7 @@
             <iconify-icon class="navbar__toggle" icon="fa6-solid:bars" style="color: white;"></iconify-icon>
         </div>
     </div>
-    <nav class="navbar container">
+    <nav class="navbar_Propio container_Propio">
         <ul class="navbar__menu">
             <li class="navbar__item submenuopen">
                 <a class="navbar__link" href="./home.php">Inicio</a>
