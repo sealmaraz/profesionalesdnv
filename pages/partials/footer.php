@@ -66,6 +66,7 @@
     <script src="../js/comunicados.js"></script>
     <script src="../js/glideDepartamentos.js"></script>
     <script src="../js/menu.js"></script>
+    <script src="../js/recaptcha.js"></script>
     
     
     

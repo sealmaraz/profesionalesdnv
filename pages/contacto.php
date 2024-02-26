@@ -2,6 +2,21 @@
 $title = "Contacto";
 ?>
 <?php include("../pages/partials/header.php"); ?>
+<!-- <script>
+    $(document).ready(function(){
+    $('#enviar').click(function(){
+        grecaptcha.ready(function(){
+            grecaptcha.execute('6Le45n8pAAAAAAQAt-yKYQHFAwjD0guCPuJQUUEY',{
+                action:"validarenvio"
+                }).then(function(token){
+                    $('#contacto').prepend('<input type="hidden" name="token" value= "'+ token +'">');
+                    $('#contacto').prepend('<input type="hidden" name="action" value= "validarenvio">');
+                    $('#contacto').submit();
+                });
+            });
+        })
+    })
+</script> -->
 <section Class="comunicado container_Propio">
     <!-- <div class="formulario"> -->
     <form class="form" action="procesar.php" method="post" name="contacto" id="contacto">
@@ -19,12 +34,12 @@ $title = "Contacto";
             <textarea name="consulta" id="Funcion2" class="form-textarea" placeholder="Consulta" cols="50" rows="4" tabindex="20" required></textarea>
             <!-- <textarea name="consulta" cols="50" rows="10" id="Funcion2" tabindex="20"></textarea>-->
         </div>
-        <div id="gw-recaptcha">
+        <!-- <div id="gw-recaptcha">
             <div id="g-recaptcha" class="g-recaptcha" data-sitekey="6LeeFbEZAAAAABydLd1cm_-u8drqAF_zDcbLumDq" style="display: inline-block;"></div>
-        </div>
+        </div> -->
         <div class="buttons">
             <input type="reset" class="btn-submit" name="Submit2" tabindex="23" value="Restablecer" />
-            <input name="Enviar" type="submit" class="btn-submit" tabindex="24" value="Enviar" />
+            <input name="Enviar" type="button" class="btn-submit" tabindex="24" id="enviar" value="Enviar" />
 
         </div>
         <br>      
