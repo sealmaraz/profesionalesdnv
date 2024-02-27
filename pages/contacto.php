@@ -2,6 +2,7 @@
 $title = "Contacto";
 ?>
 <?php include("../pages/partials/header.php"); ?>
+<?php include("../config/config.php"); ?>
 <!-- <script>
     $(document).ready(function(){
     $('#enviar').click(function(){
@@ -37,9 +38,10 @@ $title = "Contacto";
         <!-- <div id="gw-recaptcha">
             <div id="g-recaptcha" class="g-recaptcha" data-sitekey="6LeeFbEZAAAAABydLd1cm_-u8drqAF_zDcbLumDq" style="display: inline-block;"></div>
         </div> -->
+        <br>
         <div class="buttons">
             <input type="reset" class="btn-submit" name="Submit2" tabindex="23" value="Restablecer" />
-            <input name="Enviar" type="button" class="btn-submit" tabindex="24" id="enviar" value="Enviar" />
+            <input name="Enviar" type="button" class="btn-submit" tabindex="24" id="enviar" value="Enviar"/>
 
         </div>
         <br>      
