@@ -235,14 +235,19 @@ header {
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 450px) {
 
+  #header{
+    display:block;
+    /* justify-content: space-between; */
+  }
   .header__img {
-    max-width: 10rem;
+    max-width: 8rem;
   }
 
   .header__text_logo {
-    font-size: var(--font-small);
+    display: none;
+    font-size: var(--font-normal);
     transition: all 0.3s ease-in-out;
   }
 }

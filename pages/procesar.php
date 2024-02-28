@@ -2,14 +2,14 @@
 include("../config/config.php");
 $token = $_POST['token'];
 $action = $_POST['action'];
-$nombre = $_POST['Apellidoc'];
-$email = $_POST['Emailc'];
-$asunto = $_POST['asunto'];
-$consulta = $_POST['consulta'];
-echo $nombre;
-echo $email;
-echo $asunto;
-echo $consulta;
+// $nombre = $_POST['Apellidoc'];
+// $email = $_POST['Emailc'];
+// $asunto = $_POST['asunto'];
+// $consulta = $_POST['consulta'];
+// echo $nombre;
+// echo $email;
+// echo $asunto;
+// echo $consulta;
 $cu = curl_init();
 curl_setopt($cu, CURLOPT_URL, "https://www.google.com/recaptcha/api/siteverify");
 curl_setopt($cu, CURLOPT_POST, 1);
@@ -31,3 +31,4 @@ if($datos['success'] == 1 && $datos['score'] >= 0.7){
     echo "ERES UN ROBOT";
 }
 ?>
+ 

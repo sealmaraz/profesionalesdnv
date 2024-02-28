@@ -82,11 +82,11 @@ $title = "Institucional";
         <div class="article-funcion">
             <div class="box box-1 box-background_primary">
                 <h3 class="box-title">Comisión Directiva</h3>
-                <p>Secretario General<br>Secretario General Adjunto e
-                    Interior<br>Secretario de Hacienda y Administración<br>
-                    Secretario Gremial, Legal y Organización<br>
-                    Secretario de Prensa, Propaganda y Capacitación<br>
-                    Secretario de Acción Social<br> (Vocales
+                <p>Secretaría General<br>Secretaría General Adjunto e
+                    Interior<br>Secretaría de Hacienda y Administración<br>
+                    Secretaría Gremial, Legal y Organización<br>
+                    Secretaría de Prensa, Propaganda y Capacitación<br>
+                    Secretaría de Acción Social<br> (Vocales
                     suplentes)</p>
             </div>
             <div class="box box-2 box-background_primary">

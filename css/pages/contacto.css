@@ -36,7 +36,7 @@
 }
 
 /* INPUT, TEXTAREA STYLES */
-.form-input, .form-textarea{
+.form__input, .form__textarea{
     font-family: var(--terciary-font);
     width: 100%;
     padding: 4px;
@@ -48,7 +48,7 @@
     line-height: 2em;
 }
 
-.form_label {
+.form__label {
 width: 100%;
   font-family: var(--terciary-font);
   padding: 6px 6px 6px 0;
