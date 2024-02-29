@@ -24,9 +24,9 @@ $title = "Institucional";
                     afiliados</a></li>
         </ul>
     </aside>
-    <h2 class="article_title" id="aside_item9" id="mod_cel" onclick="showOculto_byID('cd_oculto','ocultar_article');">¿Quiénes somos?</h2>
+    <div class="tit_quienes_somos"><span class="article_title mod_cel" id="iconTitle">¿Quiénes somos?</span><iconify-icon class="aside_icon icon_input" id="icon_input" onclick="showOculto_byID('cd_oculto','ocultar_article'); iconIO('icon_input','icon_output','iconTitle');" icon="uil:arrow-circle-right" style="color: #f86900;"></iconify-icon><iconify-icon class="icon_output aside_icon" id="icon_output" icon="uil:arrow-circle-left" style="color: #f86900;" onclick="showOculto_byID('ocultar_article','cd_oculto'); iconIO('icon_output','icon_input','iconTitle');"></iconify-icon></div>
     <article class="institucional_CD" id="cd_oculto">
-        
+
         <?php include("../pages/cd.php"); ?>
     </article>
     <div id="ocultar_article">
