@@ -38,7 +38,7 @@ $title = "Beneficios";
       </li>
 
       <li class="glide__slide banner__1">
-        <img class="banner__img wait-loading" src="../img/banner_beneficios/beneficiosTuristicos.png" alt="" />
+        <a href="https://www.ameport.org.ar/turismo/DefaultTurismo.aspx" target="_blank"><img class="banner__img wait-loading" src="../img/banner_beneficios/beneficiosTuristicos.png" alt="" /></a>
       </li>
 
       <li class="glide__slide banner__1">
@@ -200,6 +200,49 @@ $title = "Beneficios";
   </article>
   <h2 class="linea title_alojamiento" id="bonoFidelidad">
     <span class="t_alojamiento">Bono Fidelidad</span>
+  </h2>
+  <article class="detalle_subsidio">
+    <span class="title_subsidio">
+      Te acompañamos en tu nuevo camino luego de alcanzar la jubilación en
+      Vialidad Nacional
+    </span>
+    <a class="link_protocolo" href="../docs/Protocolo_Bono_fidelidad_270421.pdf" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon>
+      Protocolo Bono Fidelidad</a>
+    <span class="text_subsidio">Es un reconocimiento al afiliado que mantuvo de forma consecutiva y
+      correlativa en el tiempo, su afiliación a esta "Asociación Gremial"
+      hasta su Renuncia por Jubilación y que cumplan con las pautas
+      estipuladas en el Protocolo.</span>
+    <br />
+    <span class="text_subsidio">El monto del beneficio al afiliado se determinará de acuerdo a la
+      cantidad de años de antigüedad como afiliada/o de esta Asociación:
+    </span>
+    <br />
+    <ul>
+      <li class="lista_beneficio">
+        <iconify-icon style="font-size: var(--font-small);" icon="healthicons:i-documents-accepted-outline"></iconify-icon><span class="text_subsidio">Más de 10 años y hasta 14 años 11 meses y 30 días de antigüedad
+          en la Asociación: <span class="cash">1000 u$s</span>.</span>
+      </li>
+      <li class="lista_beneficio">
+        <iconify-icon style="font-size: var(--font-small);" icon="healthicons:i-documents-accepted-outline"></iconify-icon><span class="text_subsidio">Más de 15 años y hasta 19 años 11 meses y 30 días de antigüedad
+          en la Asociación: <span class="cash">1500 u$s</span>.</span>
+      </li>
+      <li class="lista_beneficio">
+        <iconify-icon style="font-size: var(--font-small);" icon="healthicons:i-documents-accepted-outline"></iconify-icon><span class="text_subsidio">Más de 20 años y hasta 24 años 11 meses y 30 días de antigüedad
+          en la Asociación: <span class="cash">2000 u$s</span>.</span>
+      </li>
+      <li class="lista_beneficio">
+        <iconify-icon style="font-size: var(--font-small);" icon="healthicons:i-documents-accepted-outline"></iconify-icon><span class="text_subsidio">Más de 25 años de antigüedad en la Asociación:
+          <span class="cash">2500 u$s</span>.</span>
+      </li>
+    </ul>
+    <br />
+    <span class="text_subsidio" style="font-weight: 600;">
+      * Con este importante beneficio nuestros afiliados recuperan
+      aproximadamente el 80% de los aportes efectuados durante su actividad
+      en Vialidad Nacional a nuestra "Asociación Gremial"</span>
+  </article>
+  <h2 class="linea title_alojamiento" id="turismoSindical">
+    <span class="t_alojamiento">Beneficios Turísticos - Turismo Sindical</span>
   </h2>
   <article class="detalle_subsidio">
     <span class="title_subsidio">
