@@ -71,8 +71,11 @@ $title = "Beneficios";
   </h2>
   <!-- <div class="container_Propio-loader"><iconify-icon icon="eos-icons:bubble-loading" width="50" height="50"></iconify-icon></div> -->
   <article class="detalle_departamento">
+
     <div class="carousel">
-      <div class="glider-contain">
+      <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+      <div class="elfsight-app-323936e0-85f2-4a80-aad5-0cf605451ad9" data-elfsight-app-lazy></div>
+      <!--<div class="glider-contain">
         <button aria-label="Previous" class="glider-prev" id="glider-prev1">
           <i class="fas fa-chevron-left fa-lg"></i>
         </button>
@@ -136,7 +139,7 @@ $title = "Beneficios";
           <i class="fas fa-chevron-right fa-lg"></i>
         </button>
       </div>
-      <div role="tablist" class="dots1"></div>
+      <div role="tablist" class="dots1"></div> -->
     </div>
     <div class="glider_text">
       <span class="title_subsidio" style="text-align: center;">Para tu comodidad se encuentran ubicados estratégicamente frente a

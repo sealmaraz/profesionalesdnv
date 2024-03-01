@@ -13,14 +13,15 @@ function iconIO(icon1,icon2,title){
   
 }
 
-// function showOculto(varid) {
-//   var x = document.getElementById(varid);
-//   if (x.style.display === "block") {
-//     x.style.display = "none";
-//   } else {
-//     x.style.display = "block";
-//   }
-// }
+function showOculto(varid) {
+  var x = document.getElementById(varid);
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
 function showOculto_byID(var1, var2) {
   //ocultar_article, cd_oculto
   var x = document.getElementById(var1); //ocultar_article
