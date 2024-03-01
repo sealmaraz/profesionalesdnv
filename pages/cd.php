@@ -1,6 +1,6 @@
 <section class="comision_directiva container_Propio">
      <article class="grupo_1">
-          <div class="titulo_comision">COMISION DIRECTIVA</div>
+          <div class="titulo_comision"><span>COMISION DIRECTIVA NACIONAL</span><p>29/09/2021 al 29/09/2024</p></div>
           <span class="subtitulo">Secretario General</span>
           <span class="nombre">Ing. Jorge Segundo MATURANO</span>
           <hr>

@@ -53,7 +53,8 @@
           <a class="navbar__link" href="./contacto.php">Contacto</a>
         </li>
         <li class="navbar__item submenuopen destacado">
-          <a class="navbar__link" href="../../docs/Ficha_Asociación.pdf" target="_blank">Afiliate</a>
+          <a class="navbar__link btn-warning" href="../docs/Ficha_Asociación.pdf" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="bottom" data-bs-content="Para poder afiliarte deberás imprimir el formulario haciendo click aquí. Una vez que la hayas completado y firmado, podrás acercarle al Delegado de tu distrito quien dará continuidad al trámite.">Afiliate</a>
+          <!-- <a class="navbar__link" href="../../docs/Ficha_Asociación.pdf" target="_blank" data-bs-toggle="popover" data-bs-content="Hola Mundo">Afiliate</a> -->
         </li>
       </ul>
     </nav>

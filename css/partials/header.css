@@ -12,7 +12,11 @@ header {
   transition: all 0.4s ease-in-out;
   z-index: 100;
 }
-
+.popover {
+  font-family:var(--alternative-font) !important;
+  font-weight: 500;
+  font-size: var(--font-xnormal);
+}
 .header__img {
   max-width: 12rem;
   /* min-width: 10rem; */
