@@ -75,77 +75,12 @@ $title = "Beneficios";
     <div class="carousel">
       <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
       <div class="elfsight-app-323936e0-85f2-4a80-aad5-0cf605451ad9" data-elfsight-app-lazy></div>
-      <!--<div class="glider-contain">
-        <button aria-label="Previous" class="glider-prev" id="glider-prev1">
-          <i class="fas fa-chevron-left fa-lg"></i>
-        </button>
-        <div class="glider1">
-          <div class="banner__1">
-            <img class="banner__img1 wait-loading" src="../img/banner_departamentos/depto__1.jpeg" alt="" />
-          </div>
-          <div class="banner__1">
-            <img class="banner__img1 wait-loading" src="../img/banner_departamentos/depto__2.jpeg" alt="" />
-          </div>
-          <div class="banner__1">
-            <img class="banner__img1 wait-loading" src="../img/banner_departamentos/depto__3.jpeg" alt="" />
-          </div>
-          <div class="banner__1">
-            <img class="banner__img1 wait-loading" src="../img/banner_departamentos/depto__4.jpeg" alt="" />
-          </div>
-          <div class="banner__1">
-            <img class="banner__img1 wait-loading" src="../img/banner_departamentos/depto__6.jpeg" alt="" />
-          </div>
-          <div class="banner__1">
-            <img class="banner__img1 wait-loading" src="../img/banner_departamentos/depto__7.jpeg" alt="" />
-          </div>
-          <div class="banner__1">
-            <img class="banner__img1 wait-loading" src="../img/banner_departamentos/depto__8.jpeg" alt="" />
-          </div>
-          <div class="banner__1">
-            <img class="banner__img1 wait-loading" src="../img/banner_departamentos/depto_10.jpeg" alt="" />
-          </div>
-          <div class="banner__1">
-            <img class="banner__img1 wait-loading" src="../img/banner_departamentos/depto_11.jpeg" alt="" />
-          </div>
-          <div class="banner__1">
-            <img class="banner__img1 wait-loading" src="../img/banner_departamentos/depto_12.jpeg" alt="" />
-          </div>
-          <div class="banner__1">
-            <img class="banner__img1 wait-loading" src="../img/banner_departamentos/depto_13.jpeg" alt="" />
-          </div>
-          <div class="banner__1">
-            <img class="banner__img1 wait-loading" src="../img/banner_departamentos/depto_14.jpeg" alt="" />
-          </div>
-          <div class="banner__1">
-            <img class="banner__img1 wait-loading" src="../img/banner_departamentos/depto_15.jpeg" alt="" />
-          </div>
-          <div class="banner__1">
-            <img class="banner__img1 wait-loading" src="../img/banner_departamentos/depto_16.jpeg" alt="" />
-          </div>
-          <div class="banner__1">
-            <img class="banner__img1 wait-loading" src="../img/banner_departamentos/depto_17.jpeg" alt="" />
-          </div>
-          <div class="banner__1">
-            <img class="banner__img1 wait-loading" src="../img/banner_departamentos/depto_18.jpeg" alt="" />
-          </div>
-          <div class="banner__1">
-            <img class="banner__img1 wait-loading" src="../img/banner_departamentos/depto_19.jpeg" alt="" />
-          </div>
-          <div class="banner__1">
-            <img class="banner__img1 wait-loading" src="../img/banner_departamentos/depto_20.jpeg" alt="" />
-          </div>
-        </div>
-        <button aria-label="Next" class="glider-next" id="glider-next1">
-          <i class="fas fa-chevron-right fa-lg"></i>
-        </button>
-      </div>
-      <div role="tablist" class="dots1"></div> -->
     </div>
     <div class="glider_text">
       <span class="title_subsidio" style="text-align: center;">Para tu comodidad se encuentran ubicados estratégicamente frente a
         Casa Central en AVDA. PTE. JULIO A. ROCA 771 - CABA
       </span>
-      <a class="link_protocolo" href="../docs/Protocolo_uso_departamentos_CABA-010124.pdf" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon>
+      <a class="link_protocolo" href="../docs/Protocolo_uso_departamentos_CABA-010324.pdf" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon>
         Condiciones de Uso y Reserva</a>
       <br />
       <span class="text_subsidio">Podrás hacer uso de todos los amenities: pileta, lavadero, parrilla
@@ -241,26 +176,49 @@ $title = "Beneficios";
       aproximadamente el 80% de los aportes efectuados durante su actividad
       en Vialidad Nacional a nuestra "Asociación Gremial"</span>
   </article>
-  <h2 class="linea title_alojamiento" id="turismoSindical">
-    <span class="t_alojamiento">Beneficios Turísticos - Turismo Sindical</span>
+  <h2 class="linea title_alojamiento" id="beneficiosTuristicos">
+    <span class="t_alojamiento">Beneficios Turísticos</span>
   </h2>
   <article class="detalle_subsidio">
     <span class="title_subsidio">
-      Te acompañamos en tu nuevo camino luego de alcanzar la jubilación en
-      Vialidad Nacional
+      Para poder acceder a todos los beneficios que brinda la MUTUAL AMEPORT mediante nuestro convenio, debes estar previamente afiliado a la misma.
     </span>
-    <a class="link_protocolo" href="../docs/Protocolo_Bono_fidelidad_270421.pdf" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon>
-      Protocolo Bono Fidelidad</a>
-    <span class="text_subsidio">Es un reconocimiento al afiliado que mantuvo de forma consecutiva y
-      correlativa en el tiempo, su afiliación a esta "Asociación Gremial"
-      hasta su Renuncia por Jubilación y que cumplan con las pautas
-      estipuladas en el Protocolo.</span>
-    <br />
-    <span class="text_subsidio">El monto del beneficio al afiliado se determinará de acuerdo a la
-      cantidad de años de antigüedad como afiliada/o de esta Asociación:
+    <br>
+    <span class="text_subsidio">Si quieres conocer más al respecto comunicate al whatsapp <a class="wsp_reserva" style="font-size: large;" href="https://api.whatsapp.com/send/?phone=5493624607304" target="_blank"><iconify-icon class="icon_reserva" icon="logos:whatsapp-icon"></iconify-icon></a>
+      (0362-154607304) en el horario de 9 a 15 hs.</span>
+  </article>
+  <h2 class="linea title_alojamiento" id="beneficiosTuristicos">
+    <span class="t_alojamiento">Rueda de Turismo Sindical</span>
+  </h2>
+  <article class="detalle_subsidio">
+    <span class="title_subsidio">
+      Seguimos fortaleciendo vínculos con otros gremios, generando convenios que nos permitan ofrecer más y mejores beneficios a nuestros afiliados.
     </span>
-    <br />
-    <ul>
+    <br>
+    <span class="text_subsidio">Éstos son los nuevos destinos que tenemos para ofrecerte...</span>
+    <br>
+    <ul class="iconsTravel">
+      <li>
+        <iconify-icon style="font-size: var(--font-wspico);" icon="material-symbols:travel"></iconify-icon>
+      </li>
+      <li>
+        <iconify-icon style="font-size: var(--font-wspico);" icon="zondicons:travel-car"></iconify-icon>
+      </li>
+      <li>
+        <iconify-icon style="font-size: var(--font-wspico);" icon="zondicons:travel-bus"></iconify-icon>
+      </li>
+      <li>
+        <iconify-icon style="font-size: var(--font-wspico);" icon="healthicons:travel-negative"></iconify-icon>
+      </li>
+      <li>
+        <iconify-icon style="font-size: var(--font-wspico);" icon="streamline:travel-places-beach-island-waves-outdoor-recreation-tree-beach-palm-wave-water"></iconify-icon>
+      </li>
+      <li>
+        <iconify-icon style="font-size: var(--font-wspico);" icon="material-symbols:travel-luggage-and-bags"></iconify-icon>
+      </li>
+    </ul>
+  </article>
+  <!-- <ul>
       <li class="lista_beneficio">
         <iconify-icon style="font-size: var(--font-small);" icon="healthicons:i-documents-accepted-outline"></iconify-icon><span class="text_subsidio">Más de 10 años y hasta 14 años 11 meses y 30 días de antigüedad
           en la Asociación: <span class="cash">1000 u$s</span>.</span>
@@ -282,8 +240,8 @@ $title = "Beneficios";
     <span class="text_subsidio" style="font-weight: 600;">
       * Con este importante beneficio nuestros afiliados recuperan
       aproximadamente el 80% de los aportes efectuados durante su actividad
-      en Vialidad Nacional a nuestra "Asociación Gremial"</span>
-  </article>
+      en Vialidad Nacional a nuestra "Asociación Gremial"</span> -->
+
   <h2 class="linea title_alojamiento" id="descuentosHoteles">
     <span class="t_alojamiento">Descuentos en Hoteles</span>
   </h2>

@@ -221,7 +221,7 @@ header {
 
   .change_img{
     position: absolute !important;
-    margin-top: 125px !important;
+    margin-top: 115px !important;
     transform: scale(0.8) !important;
   }
 }
