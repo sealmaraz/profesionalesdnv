@@ -167,13 +167,10 @@
  }
 
 .iconsTravel{
-   padding:var(--spacing-12);
-   width: 100%;
-   display:flex;
-   align-content:space-around;
-
-   
+   display: flex;
+   justify-content: space-between;
 }
+
 /*Convenio con hoteles*/
 
 .info_convenios{

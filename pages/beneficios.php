@@ -191,11 +191,9 @@ $title = "Beneficios";
     <span class="t_alojamiento">Rueda de Turismo Sindical</span>
   </h2>
   <article class="detalle_subsidio">
-    <span class="title_subsidio">
+  <span class="title_subsidio">
       Seguimos fortaleciendo vínculos con otros gremios, generando convenios que nos permitan ofrecer más y mejores beneficios a nuestros afiliados.
     </span>
-    <br>
-    <span class="text_subsidio">Éstos son los nuevos destinos que tenemos para ofrecerte...</span>
     <br>
     <ul class="iconsTravel">
       <li>
@@ -216,7 +214,11 @@ $title = "Beneficios";
       <li>
         <iconify-icon style="font-size: var(--font-wspico);" icon="material-symbols:travel-luggage-and-bags"></iconify-icon>
       </li>
-    </ul>
+    </ul>  
+    <span class="text_subsidio">Éstos son los nuevos destinos que tenemos para ofrecerte...</span>
+    <br>
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-f41e1a08-61f0-485a-8b72-99595b3a2120" data-elfsight-app-lazy></div>
   </article>
   <!-- <ul>
       <li class="lista_beneficio">
