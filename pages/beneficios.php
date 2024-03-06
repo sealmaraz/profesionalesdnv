@@ -191,34 +191,14 @@ $title = "Beneficios";
     <span class="t_alojamiento">Rueda de Turismo Sindical</span>
   </h2>
   <article class="detalle_subsidio">
-  <span class="title_subsidio">
-      Seguimos fortaleciendo vínculos con otros gremios, generando convenios que nos permitan ofrecer más y mejores beneficios a nuestros afiliados.
+    <span class="title_subsidio">
+    Éstos son los nuevos destinos que tenemos para ofrecerte...
     </span>
     <br>
-    <ul class="iconsTravel">
-      <li>
-        <iconify-icon style="font-size: var(--font-wspico);" icon="material-symbols:travel"></iconify-icon>
-      </li>
-      <li>
-        <iconify-icon style="font-size: var(--font-wspico);" icon="zondicons:travel-car"></iconify-icon>
-      </li>
-      <li>
-        <iconify-icon style="font-size: var(--font-wspico);" icon="zondicons:travel-bus"></iconify-icon>
-      </li>
-      <li>
-        <iconify-icon style="font-size: var(--font-wspico);" icon="healthicons:travel-negative"></iconify-icon>
-      </li>
-      <li>
-        <iconify-icon style="font-size: var(--font-wspico);" icon="streamline:travel-places-beach-island-waves-outdoor-recreation-tree-beach-palm-wave-water"></iconify-icon>
-      </li>
-      <li>
-        <iconify-icon style="font-size: var(--font-wspico);" icon="material-symbols:travel-luggage-and-bags"></iconify-icon>
-      </li>
-    </ul>  
-    <span class="text_subsidio">Éstos son los nuevos destinos que tenemos para ofrecerte...</span>
-    <br>
+    <!-- <span class="text_subsidio">Éstos son los nuevos destinos que tenemos para ofrecerte...</span>
+    <br> -->
     <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<div class="elfsight-app-f41e1a08-61f0-485a-8b72-99595b3a2120" data-elfsight-app-lazy></div>
+    <div class="elfsight-app-f41e1a08-61f0-485a-8b72-99595b3a2120" data-elfsight-app-lazy></div>
   </article>
   <!-- <ul>
       <li class="lista_beneficio">
@@ -259,52 +239,34 @@ $title = "Beneficios";
       necesidades</span>
   </div>
   <article class="detalle_convenioHoteles">
+    <!-- HOTEL AVENIDA BUENOS AIRES -->
     <div class="hotel">
       <span class="title_hotel">HOTEL AVENIDA BUENOS AIRES</span>
       <?php
-      $contenidoAvenida= "Ubicado a 700 metros del Obelisco, en el centro de Buenos Aires, a
+      $contenidoAvenida = "<p style='text-align: center;'>Ubicado a 700 metros del Obelisco, en el centro de Buenos Aires, a
       100 metros de la plaza de Mayo y a 8 km del aeropuerto Jorge
       Newbery. La estación de subte más cercana se encuentra a 40
       metros.
       Una ubicación privilegiada en el corazón de Buenos Aires.
-      Como afiliado, contarás con 20% DE DESCUENTO SOBRE LAS TARIFAS
-      DADAS; APLICA PARA CUALQUIER DIA, CON CUALQUIER MEDIO DE PAGO Y
-      PUDIENDO CANCELAR HASTA 24 HORAS ANTES DEL HORARIO DE CHECK IN.(12
-      HS) NO HACE FALTA DATOS DE TARJETA PARA PODER RESERVAR."
+      <br>
+      <br>
+      Como afiliado, <strong>contarás con 20% de descuento </strong> sobre las tarifas dadas;
+      aplica para cualquier día, con cualquier medio de pago y
+      pudiendo cancelar hasta 24 hs. antes del horario del check in (12
+      hs.).</p>"
       ?>
       <a class="link_protocolo" href="https://hotelav.com.ar/es/reservas" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon><span>Realiza aquí tu reserva</span></a>
-      <img target="_blank" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="left" data-html="true" data-bs-content="<?php echo $contenidoAvenida; ?>" src="../img/convenio_hoteles/hotelAvenida.png" alt="">
-      <!-- <div class="detalle_avenida opacidad">
-
-      </div> -->
-      <!-- <div class="tarifas text_subsidio">
-        <p style="text-align: center;">
-          Ubicado a 700 metros del Obelisco, en el centro de Buenos Aires, a
-          100 metros de la plaza de Mayo y a 8 km del aeropuerto Jorge
-          Newbery. La estación de subte más cercana se encuentra a 40
-          metros. <br />
-          Una ubicación privilegiada en el corazón de Buenos Aires.
-        </p>
-        <br />
-        <p style="text-transform: lowercase; font-weight: 600;">
-          Como afiliado, contarás con 20% DE DESCUENTO SOBRE LAS TARIFAS
-          DADAS; APLICA PARA CUALQUIER DIA, CON CUALQUIER MEDIO DE PAGO Y
-          PUDIENDO CANCELAR HASTA 24 HORAS ANTES DEL HORARIO DE CHECK IN.(12
-          HS) NO HACE FALTA DATOS DE TARJETA PARA PODER RESERVAR.
-        </p>
-      </div> -->
+      <img class="popover_config" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="left" data-bs-html="true" data-bs-content="<?php echo $contenidoAvenida; ?>" src="../img/convenio_hoteles/hotelAvenida.png" alt="">
     </div>
+    <!-- HOTEL CENTURIA BUENOS AIRES -->
     <div class="hotel">
       <span class="title_hotel">CENTURIA HOTEL BUENOS AIRES</span>
-      <a class="link_protocolo" href="https://www.centuriabuenosaireshotel.com/" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon><span>Realiza aquí tu reserva</span></a>
-      <div class="detalle_centuria opacidad"></div>
-      <div class="tarifas text_subsidio">
-        <p style="text-align: center;">
+      <?php $contenidoCenturia = "<p style='text-align: center;'>
           Ubicado a tan solo 600 metros del Obelisco, 700m de la Plaza de
           Mayo y 30 km del Aeropuerto Internacional Ministro Pistarini.
         </p>
         <br />
-        <p style="font-weight: 600;">
+        <p style='font-weight: 600;'>
           CANCELACIONES Y CAMBIOS DE FECHAS
           <br /><u>Dos (2) días antes de la fecha de llegada</u>: Sin
           penalidad. <br /><u>Un día antes de la fecha de llegada</u>: Se
@@ -312,20 +274,21 @@ $title = "Beneficios";
           de su fecha de salida. Caso contrario se cobrará (1) noche de
           penalidad. <br /><u>*NO SHOW</u>: Se cobrará Una (1) noche de
           penalidad.
-        </p>
-      </div>
+        </p>" ?>
+      <a class="link_protocolo" href="https://www.centuriabuenosaireshotel.com/" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon><span>Realiza aquí tu reserva</span></a>
+      <img class="popover_config" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="left" data-bs-html="true" data-bs-content="<?php echo $contenidoCenturia; ?>" src="../img/convenio_hoteles/hotelCenturia.png" alt="">
     </div>
+    <!-- HOTEL UTHGRA DE LAS LUCES BUENOS AIRES -->
     <div class="hotel">
       <span class="title_hotel">HOTEL UTHGRA DE LAS LUCES BUENOS AIRES</span>
-      <a class="link_protocolo" href="http://www.uthgradelasluces.com.ar/index.php?n1=home" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon><span>Realiza aquí tu reserva</span></a>
-      <div class="detalle_uthgra opacidad imgHoteles"></div>
-      <div class="tarifas text_subsidio">
-        <p style="text-align: center;">
+      <?php $contenidoCenturia = "<p style='text-align: center;'>
           Se encuentra ubicado en las cercanías del distrito financiero y rodeado de los más
           importantes edificios públicos y atractivos de la ciudad: Plaza de
           Mayo, Casa Rosada, el Cabildo, Catedral Metropolitana, Puerto
           Madero y la Calle Florida.
-        </p>
+        </p>" ?>
+      <a class="link_protocolo" href="http://www.uthgradelasluces.com.ar/index.php?n1=home" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon><span>Realiza aquí tu reserva</span></a>
+      <img class="popover_config" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="right" data-bs-html="true" data-bs-content="<?php echo $contenidoCenturia; ?>" src="../img/convenio_hoteles/hotelUthgra.jpg" alt="">
       </div>
     </div>
     </div>
