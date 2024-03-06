@@ -261,9 +261,23 @@ $title = "Beneficios";
   <article class="detalle_convenioHoteles">
     <div class="hotel">
       <span class="title_hotel">HOTEL AVENIDA BUENOS AIRES</span>
+      <?php
+      $contenidoAvenida= "Ubicado a 700 metros del Obelisco, en el centro de Buenos Aires, a
+      100 metros de la plaza de Mayo y a 8 km del aeropuerto Jorge
+      Newbery. La estación de subte más cercana se encuentra a 40
+      metros.
+      Una ubicación privilegiada en el corazón de Buenos Aires.
+      Como afiliado, contarás con 20% DE DESCUENTO SOBRE LAS TARIFAS
+      DADAS; APLICA PARA CUALQUIER DIA, CON CUALQUIER MEDIO DE PAGO Y
+      PUDIENDO CANCELAR HASTA 24 HORAS ANTES DEL HORARIO DE CHECK IN.(12
+      HS) NO HACE FALTA DATOS DE TARJETA PARA PODER RESERVAR."
+      ?>
       <a class="link_protocolo" href="https://hotelav.com.ar/es/reservas" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon><span>Realiza aquí tu reserva</span></a>
-      <div class="detalle_avenida opacidad"></div>
-      <div class="tarifas text_subsidio">
+      <img target="_blank" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="left" data-html="true" data-bs-content="<?php echo $contenidoAvenida; ?>" src="../img/convenio_hoteles/hotelAvenida.png" alt="">
+      <!-- <div class="detalle_avenida opacidad">
+
+      </div> -->
+      <!-- <div class="tarifas text_subsidio">
         <p style="text-align: center;">
           Ubicado a 700 metros del Obelisco, en el centro de Buenos Aires, a
           100 metros de la plaza de Mayo y a 8 km del aeropuerto Jorge
@@ -278,7 +292,7 @@ $title = "Beneficios";
           PUDIENDO CANCELAR HASTA 24 HORAS ANTES DEL HORARIO DE CHECK IN.(12
           HS) NO HACE FALTA DATOS DE TARJETA PARA PODER RESERVAR.
         </p>
-      </div>
+      </div> -->
     </div>
     <div class="hotel">
       <span class="title_hotel">CENTURIA HOTEL BUENOS AIRES</span>
@@ -314,26 +328,6 @@ $title = "Beneficios";
         </p>
       </div>
     </div>
-    <div class="hotel">
-      <span class="title_hotel">INFORMACION GENERAL</span>
-      <!-- <span class="text_subsidio" style="text-align: justify;"
-            ><iconify-icon
-              style="font-size: var(--font-small);"
-              icon="healthicons:i-documents-accepted-outline"
-            ></iconify-icon
-            >Es importante que realices la reserva con tiempo e informes siempre
-            que eres afiliado en la "Asociación Gremial de Profesionales y
-            Personal Superior de Vialidad Nacional"</span
-          >
-          <span class="text_subsidio" style="text-align: justify;"
-            ><iconify-icon
-              style="font-size: var(--font-small);"
-              icon="healthicons:i-documents-accepted-outline"
-            ></iconify-icon
-            >Ingresa a los sitios y determina cuál se adapta más a tus
-            necesidades</span
-          > -->
-      <div></div>
     </div>
   </article>
 </section>
