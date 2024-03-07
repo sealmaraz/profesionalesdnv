@@ -176,6 +176,17 @@ $title = "Beneficios";
       aproximadamente el 80% de los aportes efectuados durante su actividad
       en Vialidad Nacional a nuestra "Asociación Gremial"</span>
   </article>
+  <h2 class="linea title_alojamiento" id="sorteoMensual">
+    <span class="t_alojamiento">Sorteo Bono Mensual</span>
+  </h2>
+  <article class="detalle_subsidio">
+    <span class="title_subsidio">
+      Todos los meses realizamos un sorteo entre todos los afiliados activos de un BONO MENSUAL DE $60.000,00
+    </span>
+    <a class="link_protocolo" href="../docs/Reglamento_Bono_Mensual_250823.pdf" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon>
+      Reglamento Sorteo Bono Mensual</a>
+      <span class="text_subsidio"> El sorteo se realiza por la Lotería Nacional Nocturna el primer lunes de cada mes.</span>
+  </article>
   <h2 class="linea title_alojamiento" id="beneficiosTuristicos">
     <span class="t_alojamiento">Beneficios Turísticos</span>
   </h2>
@@ -192,7 +203,7 @@ $title = "Beneficios";
   </h2>
   <article class="detalle_subsidio">
     <span class="title_subsidio">
-    Éstos son los nuevos destinos que tenemos para ofrecerte...
+      Éstos son los nuevos destinos que tenemos para ofrecerte...
     </span>
     <br>
     <!-- <span class="text_subsidio">Éstos son los nuevos destinos que tenemos para ofrecerte...</span>
@@ -289,7 +300,7 @@ $title = "Beneficios";
         </p>" ?>
       <a class="link_protocolo" href="http://www.uthgradelasluces.com.ar/index.php?n1=home" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon><span>Realiza aquí tu reserva</span></a>
       <img class="popover_config" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="right" data-bs-html="true" data-bs-content="<?php echo $contenidoCenturia; ?>" src="../img/convenio_hoteles/hotelUthgra.jpg" alt="">
-      </div>
+    </div>
     </div>
     </div>
   </article>
