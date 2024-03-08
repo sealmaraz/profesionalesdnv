@@ -1,0 +1,16 @@
+.containerCarousel .carouselGeneral{
+    white-space: nowrap;
+}
+
+.containerCarousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 1200px;
+}
+.carouselGeneral_img{
+    height: 340px;
+    object-fit: cover;
+    width: calc(100% / 3);
+}
