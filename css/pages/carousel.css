@@ -1,16 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .containerCarousel .carouselGeneral{
     white-space: nowrap;
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
 }
 
 .containerCarousel{
     display: flex;
+    gap: 10px;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     max-width: 1200px;
 }
 .carouselGeneral_img{
-    height: 340px;
+    height: 400px;
     object-fit: cover;
+    margin-left: 5px;
     width: calc(100% / 3);
+}
+
+.carouselGeneral_img:first-child{
+    margin-left: 0px;
 }
