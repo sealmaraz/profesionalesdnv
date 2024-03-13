@@ -185,7 +185,20 @@ $title = "Beneficios";
     </span>
     <a class="link_protocolo" href="../docs/Reglamento_Bono_Mensual_250823.pdf" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon>
       Reglamento Sorteo Bono Mensual</a>
-      <span class="text_subsidio"> El sorteo se realiza por la Lotería Nacional Nocturna el primer lunes de cada mes.</span>
+    <span class="text_subsidio"> El sorteo se realiza por la Lotería Nacional Nocturna el primer lunes de cada mes.</span>
+    <section class="movies container_Propio">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <?php
+          $images = scandir('../img/carousel1/');
+          $images = array_diff($images, array('..', '.'));
+          foreach ($images as $image) {
+            echo '<div class="swiper-slide"><img src="../img/carousel1/' . $image . '" alt="' . $image . '"></div>';
+          }
+          ?>
+        </div>
+      </div>
+    </section>
   </article>
   <h2 class="linea title_alojamiento" id="beneficiosTuristicos">
     <span class="t_alojamiento">Beneficios Turísticos</span>
