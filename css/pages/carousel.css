@@ -1,0 +1,28 @@
+.movies{
+    padding: 50px 0 150px 0;
+}
+
+.swiper{
+    width: 100%;
+}
+
+.swiper-slide{
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+}
+
+.swiper-slide img{
+    display: block;
+    width: 100%;
+}
+
+@media(max-width:991px){
+    body{
+        min-height: 0vh;
+    }
+    .movies{
+        padding: 30px;
+    }
+    
+}

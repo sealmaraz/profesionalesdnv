@@ -1,0 +1,97 @@
+/* Estilos del body del Home */
+.img_principal{
+    background-image: url(../../img/equipo.png);
+    /* padding: var(--spacing-128); */
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* filter: blur(2px) brightness(.9); */
+}
+.main_texts{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.home_text{
+    font-family: var(--terciary-font);
+    font-size: 0.3em;
+}
+
+.banner__img1{
+    transition:all .5s ease-in-out;
+    border-radius: 10px;
+    box-shadow: 1px 10px 15px rgba(0,0,0,0.6);
+}
+
+.banner_container:hover .banner__img1{
+    object-fit: cover;    
+    transform: scale(1.4);
+}
+
+.main_text{
+    color: var(--light-bg-color-solid) ;
+    text-shadow: 0px 1px 10px rgba(0,0,0,0.9);
+    font-family: var(--terciary-font);
+    font-size: var(--font-xlarge);
+    font-weight: 700;
+}
+
+.main_principal{
+    padding: 10px 100px;
+}
+
+.banner_container{
+    text-align:  center;
+}
+
+.fixed-background {
+    background-image: url('../../img/home/dia_mujer_10.png');
+    background-size: cover;
+    background-attachment: fixed; /* Esto mantiene la imagen fija mientras se hace scroll */
+    height:60vh; /* Esto asegura que la imagen ocupe toda la altura de la ventana del navegador */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Color del texto */
+    text-align: center;
+    /* filter: blur(1px); */
+    width: 100%;
+  }
+  
+  .transparent-text {
+    font-family: var(--stetic-font);
+    font-size: 5em;
+    width: 100vw;
+    /* filter: blur(1px); */
+    background-color: rgba(0, 0, 0, 0.1); /* Fondo transparente */
+    text-shadow: 2px 2px 3px black;
+    font-weight: 500;
+    /* text-shadow: #1b0404 1px 0 10px; */
+    /* text-shadow: 5px 5px #083864; */
+    padding: 20px;
+  }
+
+@media screen and (max-width: 430px) {
+    .main_text{
+        font-size: var(--font-inter);
+    }
+    .banner__img1{
+        max-height: 200px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .banner__img1{
+        width: auto;
+        max-height: 400px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .transparent-text {
+        font-size: 3em;
+    }
+}
+

@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteBase /
+
+# Redirige todas las solicitudes a index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [L]
+
+# Elimina la extensión de archivo de las URL
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^([^\.]+)/?$ $1.php [L]

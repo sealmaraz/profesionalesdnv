@@ -1,0 +1,22 @@
+{
+    "name": "salmaraz/profesionalesdnv",
+    "description": "Sitio Asociación",
+    "type": "project",
+    "license": "propietary",
+    "autoload": {
+        "psr-4": {
+            "Salmaraz\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Elizabeth Almaraz",
+            "email": "ealmaraz@correo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "league/oauth2-google": "dev-main",
+        "phpmailer/phpmailer": "dev-master"
+    }
+}

@@ -1,0 +1,38 @@
+/* Normalizacion de Estilos General */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: var(--primary-font);
+    font-size: 62.5%;
+    color: var(--dark-color-solid);
+}
+
+a {
+    font-family: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+.container_Propio{
+    max-width:1200px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    height: 100vh;
+    /* background-color: #f5f5f5; */
+}
