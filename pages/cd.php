@@ -113,7 +113,7 @@
                <div class="subgrupo1">
                     <span class="vocal">Seccional NOROESTE</span>
                     <span class="vocal">Titulares:</span>
-                    <span class="miembro">Guillermo R. O. Zuñiga</span>
+                    <span class="miembro">Guillermo R. D. Zuñiga</span>
                     <span class="miembro">Ramiro Fabián E. Argañaraz</span>
                     <span class="miembro">Camila Emilse Cerezo</span>
                     <span class="miembro">María Fernanda C. Suarez</span>

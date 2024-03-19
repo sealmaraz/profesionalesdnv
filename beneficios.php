@@ -2,13 +2,13 @@
 $title = "Beneficios";
 ?>
 <?php include("../pages/partials/header.php"); ?>
-<div class="loading loading--show"><iconify-icon icon="eos-icons:three-dots-loading" width="50" height="50"></iconify-icon></div>
+<!-- <div class="loading loading--show"><iconify-icon icon="eos-icons:three-dots-loading" width="50" height="50"></iconify-icon></div> -->
 <section class="banner_principal movie">
   <div class="banner_sorteos swiper mySwiper2">
     <ul class="swiper-wrapper">
       <li class="swiper-slide banner__1">
         <a href="#subsidio"><img class="banner__img" src="../img/banner_beneficios/subsidioMatrimonio.png" alt="" /></a>
-      </li>o
+      </li>
 
       <li class="swiper-slide banner__1">
         <a href="#subsidio"><img class="banner__img" src="../img/banner_beneficios/subsidioNacimiento.png" alt="" /></a>
@@ -23,7 +23,7 @@ $title = "Beneficios";
       </li>
 
       <li class="swiper-slide banner__1">
-        <a href="#sorteoMensual"><img class="banner__img" src="../img/banner_beneficios/bonoMensual.png" alt="" /></a>
+        <img class="banner__img" src="../img/banner_beneficios/bonoMensual.png" alt="" />
       </li>
 
       <li class="swiper-slide banner__1">
@@ -54,64 +54,60 @@ $title = "Beneficios";
   </div>
 </section>
 <section class="container_Propio">
-  <section id="alojamiento">
-    <h2 class="linea title_alojamiento">
-      <span class="t_alojamiento">Nuestros Departamentos</span>
-    </h2>
-    <!-- <div class="container_Propio-loader"><iconify-icon icon="eos-icons:bubble-loading" width="50" height="50"></iconify-icon></div> -->
-    <article class="detalle_departamento">
+  <h2 class="linea title_alojamiento" id="alojamiento">
+    <span class="t_alojamiento">Nuestros Departamentos</span>
+  </h2>
+  <!-- <div class="container_Propio-loader"><iconify-icon icon="eos-icons:bubble-loading" width="50" height="50"></iconify-icon></div> -->
+  <article class="detalle_departamento">
 
-      <!-- <div class="carousel">
+    <!-- <div class="carousel">
       <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
       <div class="elfsight-app-323936e0-85f2-4a80-aad5-0cf605451ad9" data-elfsight-app-lazy></div>
     </div> -->
-      <div thumbsSlider="" class="swiper mySwiper3">
-        <div class="swiper-wrapper">
-          <?php
-          $images = scandir('../img/banner_departamentos/');
-          $images = array_diff($images, array('..', '.'));
-          foreach ($images as $image) {
-            echo '<div class="swiper-slide"><img style="height:400px" src="../img/banner_departamentos/' . $image . '" alt="' . $image . '" onclick="abrirVistaPrevia(this.src)"></div>';
-          }
-          ?>
-        </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+    <div thumbsSlider="" class="swiper mySwiper3">
+      <div class="swiper-wrapper">
+        <?php
+        $images = scandir('../img/banner_departamentos/');
+        $images = array_diff($images, array('..', '.'));
+        foreach ($images as $image) {
+          echo '<div class="swiper-slide"><img style="height:400px" src="../img/banner_departamentos/' . $image . '" alt="' . $image . '" onclick="abrirVistaPrevia(this.src)"></div>';
+        }
+        ?>
       </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
 
-      <div class="glider_text">
-        <span class="title_subsidio" style="text-align: center;">Para tu comodidad se encuentran ubicados estratégicamente frente a
-          Casa Central en AVDA. PTE. JULIO A. ROCA 771 - CABA
-        </span>
-        <a class="link_protocolo" href="../docs/Protocolo_uso_departamentos_CABA-010324.pdf" target="_blank"><button type="button" class="btn btn-info">Condiciones de Uso y Reserva</button>
-        </a>
-        <br />
-        <span class="text_subsidio">Podrás hacer uso de todos los amenities: pileta, lavadero, parrilla
-          y gimnasio, respetando las indicaciones del edificio.</span>
-        <br />
-        <span class="text_subsidio">Para reservas o consultas comunicate al whatsapp
-          <a class="wsp_reserva" style="font-size: large;" href="https://api.whatsapp.com/send/?phone=5491127723511" target="_blank"><iconify-icon class="icon_reserva" icon="logos:whatsapp-icon"></iconify-icon></a>
-          (011-1527723511) en el horario de 9 a 17 hs.
-        </span>
-        <br />
-        <span class="text_subsidio">Datos de cuenta para pago de estadía:</span>
-        <span class="text_subsidio" style="color: var(--primary-color-solid);">CBU: 0110010540001013410080</span>
-        <span class="text_subsidio" style="color: var(--primary-color-solid);">Alias: RESERVAS.DPTOS.AP</span>
-        <span class="text_subsidio">Se recomienda copiar y pegar los datos previos.</span>
-      </div>
-    </article>
-  </section>
+    <div class="glider_text">
+      <span class="title_subsidio" style="text-align: center;">Para tu comodidad se encuentran ubicados estratégicamente frente a
+        Casa Central en AVDA. PTE. JULIO A. ROCA 771 - CABA
+      </span>
+      <a class="link_protocolo" href="../docs/Protocolo_uso_departamentos_CABA-010324.pdf" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon>
+        Condiciones de Uso y Reserva</a>
+      <br />
+      <span class="text_subsidio">Podrás hacer uso de todos los amenities: pileta, lavadero, parrilla
+        y gimnasio, respetando las indicaciones del edificio.</span>
+      <br />
+      <span class="text_subsidio">Para reservas o consultas comunicate al whatsapp
+        <a class="wsp_reserva" style="font-size: large;" href="https://api.whatsapp.com/send/?phone=5491127723511" target="_blank"><iconify-icon class="icon_reserva" icon="logos:whatsapp-icon"></iconify-icon></a>
+        (011-1527723511) en el horario de 9 a 17 hs.
+      </span>
+      <br />
+      <span class="text_subsidio">Datos de cuenta para pago de estadía:</span>
+      <span class="text_subsidio" style="color: var(--primary-color-solid);">CBU: 0110010540001013410080</span>
+      <span class="text_subsidio" style="color: var(--primary-color-solid);">Alias: RESERVAS.DPTOS.AP</span>
+      <span class="text_subsidio">Se recomienda copiar y pegar los datos previos.</span>
+    </div>
+  </article>
   <h2 class="linea title_alojamiento" id="subsidio">
     <span class="t_alojamiento">Subsidio por Casamiento, Nacimiento o Adopción</span>
   </h2>
   <article class="detalle_subsidio">
     <span class="title_subsidio">
-      Siempre a tu lado en los momentos importantes. Recibirás $ 160.000,00
+      Siempre a tu lado en los momentos importantes. Recibirás $60.000,00
       para lo que desees</span>
-    <a class="link_protocolo" href="../docs/SUBSIDIOS_POR_CASAMIENTO_Y_NACIMIENTO_O_ADOPCIÓN.pdf" target="_blank"><button type="button" class="btn btn-info">Reglamento de ortorgamiento</button>
-    </a>
-    <!-- <a class="link_protocolo" href="../docs/SUBSIDIOS_POR_CASAMIENTO_Y_NACIMIENTO_O_ADOPCIÓN.pdf" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon>
-      Reglamento de ortorgamiento</a> -->
+    <a class="link_protocolo" href="../docs/SUBSIDIOS_POR_CASAMIENTO_Y_NACIMIENTO_O_ADOPCIÓN.pdf" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon>
+      Reglamento de ortorgamiento</a>
     <span class="text_subsidio">Es un trámite sencillo y puedes canalizarlo a través del Delegado de
       Distrito o del Representante de tu Seccional</span>
     <br />
@@ -147,10 +143,8 @@ $title = "Beneficios";
       Te acompañamos en tu nuevo camino luego de alcanzar la jubilación en
       Vialidad Nacional
     </span>
-    <a class="link_protocolo" href="../docs/Protocolo_Bono_fidelidad_270421.pdf" target="_blank"><button type="button" class="btn btn-info">Protocolo Bono Fidelidad</button>
-    </a>
-    <!-- <a class="link_protocolo" href="../docs/Protocolo_Bono_fidelidad_270421.pdf" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon> -->
-    <!-- Protocolo Bono Fidelidad</a> -->
+    <a class="link_protocolo" href="../docs/Protocolo_Bono_fidelidad_270421.pdf" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon>
+      Protocolo Bono Fidelidad</a>
     <span class="text_subsidio">Es un reconocimiento al afiliado que mantuvo de forma consecutiva y
       correlativa en el tiempo, su afiliación a esta "Asociación Gremial"
       hasta su Renuncia por Jubilación y que cumplan con las pautas
@@ -191,10 +185,8 @@ $title = "Beneficios";
     <span class="title_subsidio">
       Todos los meses realizamos un sorteo entre todos los afiliados activos de un BONO MENSUAL DE <b>$160.000,00</b>
     </span>
-    <a class="link_protocolo" href="../docs/Reglamento_Bono_Mensual_250823.pdf" target="_blank"><button type="button" class="btn btn-info">Reglamento Sorteo Bono Mensual</button>
-    </a>
-    <!-- <a class="link_protocolo" href="../docs/Reglamento_Bono_Mensual_250823.pdf" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon>
-      Reglamento Sorteo Bono Mensual</a> -->
+    <a class="link_protocolo" href="../docs/Reglamento_Bono_Mensual_250823.pdf" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon>
+      Reglamento Sorteo Bono Mensual</a>
     <span class="text_subsidio"> El sorteo se realiza por la Lotería Nacional Nocturna el primer lunes de cada mes.</span>
     <section class="movie">
       <div class="swiper mySwiper">
@@ -224,7 +216,7 @@ $title = "Beneficios";
     </span>
     <br>
     <span class="text_subsidio">Si quieres conocer más al respecto comunicate al whatsapp <a class="wsp_reserva" style="font-size: large;" href="https://api.whatsapp.com/send/?phone=5493624607304" target="_blank"><iconify-icon class="icon_reserva" icon="logos:whatsapp-icon"></iconify-icon></a>
-      (3624607304) en el horario de 9 a 15 hs.</span>
+      (0362-154607304) en el horario de 9 a 15 hs.</span>
   </article>
   <h2 class="linea title_alojamiento" id="beneficiosTuristicos">
     <span class="t_alojamiento">Rueda de Turismo Sindical</span>
@@ -256,6 +248,30 @@ $title = "Beneficios";
       <img class="modal-contenido" id="imagenModal">
     </div>
   </article>
+  <!-- <ul>
+      <li class="lista_beneficio">
+        <iconify-icon style="font-size: var(--font-small);" icon="healthicons:i-documents-accepted-outline"></iconify-icon><span class="text_subsidio">Más de 10 años y hasta 14 años 11 meses y 30 días de antigüedad
+          en la Asociación: <span class="cash">1000 u$s</span>.</span>
+      </li>
+      <li class="lista_beneficio">
+        <iconify-icon style="font-size: var(--font-small);" icon="healthicons:i-documents-accepted-outline"></iconify-icon><span class="text_subsidio">Más de 15 años y hasta 19 años 11 meses y 30 días de antigüedad
+          en la Asociación: <span class="cash">1500 u$s</span>.</span>
+      </li>
+      <li class="lista_beneficio">
+        <iconify-icon style="font-size: var(--font-small);" icon="healthicons:i-documents-accepted-outline"></iconify-icon><span class="text_subsidio">Más de 20 años y hasta 24 años 11 meses y 30 días de antigüedad
+          en la Asociación: <span class="cash">2000 u$s</span>.</span>
+      </li>
+      <li class="lista_beneficio">
+        <iconify-icon style="font-size: var(--font-small);" icon="healthicons:i-documents-accepted-outline"></iconify-icon><span class="text_subsidio">Más de 25 años de antigüedad en la Asociación:
+          <span class="cash">2500 u$s</span>.</span>
+      </li>
+    </ul>
+    <br />
+    <span class="text_subsidio" style="font-weight: 600;">
+      * Con este importante beneficio nuestros afiliados recuperan
+      aproximadamente el 80% de los aportes efectuados durante su actividad
+      en Vialidad Nacional a nuestra "Asociación Gremial"</span> -->
+
   <h2 class="linea title_alojamiento" id="descuentosHoteles">
     <span class="t_alojamiento">Descuentos en Hoteles</span>
   </h2>
@@ -287,8 +303,7 @@ $title = "Beneficios";
       pudiendo cancelar hasta 24 hs. antes del horario del check in (12
       hs.).</p>"
       ?>
-      <a class="link_protocolo" href="https://hotelav.com.ar/es/reservas" target="_blank"><button type="button" class="btn btn-info">Realiza aquí tu reserva</button></a>
-      <!-- <a class="link_protocolo" href="https://hotelav.com.ar/es/reservas" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon><span>Realiza aquí tu reserva</span></a> -->
+      <a class="link_protocolo" href="https://hotelav.com.ar/es/reservas" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon><span>Realiza aquí tu reserva</span></a>
       <img class="popover_config" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="left" data-bs-html="true" data-bs-content="<?php echo $contenidoAvenida; ?>" src="../img/convenio_hoteles/hotelAvenida.png" alt="">
     </div>
     <!-- HOTEL CENTURIA BUENOS AIRES -->
@@ -308,8 +323,7 @@ $title = "Beneficios";
           penalidad. <br /><u>*NO SHOW</u>: Se cobrará Una (1) noche de
           penalidad.
         </p>" ?>
-        <a class="link_protocolo" href="https://www.centuriabuenosaireshotel.com/" target="_blank"><button type="button" class="btn btn-info">Realiza aquí tu reserva</button></a>
-      <!-- <a class="link_protocolo" href="https://www.centuriabuenosaireshotel.com/" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon><span>Realiza aquí tu reserva</span></a> -->
+      <a class="link_protocolo" href="https://www.centuriabuenosaireshotel.com/" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon><span>Realiza aquí tu reserva</span></a>
       <img class="popover_config" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="left" data-bs-html="true" data-bs-content="<?php echo $contenidoCenturia; ?>" src="../img/convenio_hoteles/hotelCenturia.png" alt="">
     </div>
     <!-- HOTEL UTHGRA DE LAS LUCES BUENOS AIRES -->
@@ -321,8 +335,7 @@ $title = "Beneficios";
           Mayo, Casa Rosada, el Cabildo, Catedral Metropolitana, Puerto
           Madero y la Calle Florida.
         </p>" ?>
-        <a class="link_protocolo" href="http://www.uthgradelasluces.com.ar/index.php?n1=home" target="_blank"><button type="button" class="btn btn-info">Realiza aquí tu reserva</button></a>
-      <!-- <a class="link_protocolo" href="http://www.uthgradelasluces.com.ar/index.php?n1=home" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon><span>Realiza aquí tu reserva</span></a> -->
+      <a class="link_protocolo" href="http://www.uthgradelasluces.com.ar/index.php?n1=home" target="_blank"><iconify-icon icon="typcn:arrow-right-thick"></iconify-icon><span>Realiza aquí tu reserva</span></a>
       <img class="popover_config" target="_blank" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="right" data-bs-html="true" data-bs-content="<?php echo $contenidoCenturia; ?>" src="../img/convenio_hoteles/hotelUthgra.jpg" alt="">
     </div>
     </div>

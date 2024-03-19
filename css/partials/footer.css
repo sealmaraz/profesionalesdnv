@@ -28,3 +28,29 @@ footer{
     display: flex;
     justify-content: space-around;
 }
+
+.wsp_float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    bottom: 80px;
+    right: 10px;
+    font-size: var(--font-wspico);
+    border-radius: 52px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+ }
+
+ .ig_float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    bottom: 150px;
+    right: 10px;
+    font-size: var(--font-wspico);
+    border-radius: 52px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+ }

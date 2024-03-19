@@ -54,6 +54,7 @@
     --alternative-font: 'Raleway', sans-serif;
     --terciary-font: 'Open Sans', sans-serif;
     --quaternary-font:'Montserrat', sans-serif;
+    --stetic-font: 'Euphoria Script', cursive;
 
 
     /* Tamaños de Fuentes */
@@ -69,6 +70,7 @@
     --font-xsmall: 1.4em;
     --font-normal: 1.2em;
     --font-xnormal: 1em;
+    --font-epigrafe: 0.8em;
 
 
     /* Espaciados */

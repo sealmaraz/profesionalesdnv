@@ -14,6 +14,11 @@
     left: 30px;
 }
 
+.home_text{
+    font-family: var(--terciary-font);
+    font-size: 0.3em;
+}
+
 .banner__img1{
     transition:all .5s ease-in-out;
     border-radius: 10px;
@@ -40,18 +45,33 @@
 .banner_container{
     text-align:  center;
 }
-.wsp_float{
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    bottom: 80px;
-    right: 10px;
-    font-size: var(--font-wspico);
-    border-radius: 52px;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
-    z-index: 1000;
- }
+
+.fixed-background {
+    background-image: url('../../img/home/dia_mujer_10.png');
+    background-size: cover;
+    background-attachment: fixed; /* Esto mantiene la imagen fija mientras se hace scroll */
+    height:60vh; /* Esto asegura que la imagen ocupe toda la altura de la ventana del navegador */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Color del texto */
+    text-align: center;
+    /* filter: blur(1px); */
+    width: 100%;
+  }
+  
+  .transparent-text {
+    font-family: var(--stetic-font);
+    font-size: 5em;
+    width: 100vw;
+    /* filter: blur(1px); */
+    background-color: rgba(0, 0, 0, 0.1); /* Fondo transparente */
+    text-shadow: 2px 2px 3px black;
+    font-weight: 500;
+    /* text-shadow: #1b0404 1px 0 10px; */
+    /* text-shadow: 5px 5px #083864; */
+    padding: 20px;
+  }
 
 @media screen and (max-width: 430px) {
     .main_text{
@@ -68,3 +88,10 @@
         max-height: 400px;
     }
 }
+
+@media screen and (max-width: 640px) {
+    .transparent-text {
+        font-size: 3em;
+    }
+}
+

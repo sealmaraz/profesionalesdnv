@@ -219,6 +219,10 @@ header {
     transition: all 0.2s ease-in-out !important;
   }
 
+  .navbar_Propio{
+    padding-top: 20px;
+  }
+
   .change_img{
     position: absolute !important;
     margin-top: 115px !important;
@@ -231,6 +235,9 @@ header {
     transition: all 0.2s ease-in-out !important;
   }
 
+  .navbar_Propio{
+    padding-top: 20px;
+  }
   .change_img{
     position: absolute !important;
     margin-top: 150px !important;
