@@ -32,3 +32,54 @@ if($datos['success'] == 1 && $datos['score'] >= 0.7){
 }
 ?>
  
+
+
+ <?php
+// Verifica si se ha enviado un token de reCAPTCHA
+if (isset($_POST['recaptchaResponse'])) {
+    $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
+    $recaptcha_secret = 'Your_Recaptcha_Secret_Key';
+    $recaptcha_response = $_POST['recaptchaResponse'];
+
+    // Hace una solicitud POST a la API de reCAPTCHA
+    $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
+    $recaptcha = json_decode($recaptcha);
+
+    // Verifica la respuesta de reCAPTCHA
+    if ($recaptcha->success) {
+        // Procesa el formulario
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $subject = $_POST['subject'];
+        $message = $_POST['message'];
+
+        // Validación adicional de campos (puedes agregar más validaciones según tus necesidades)
+
+        // Conexión a la base de datos
+        try {
+            $dbh = new PDO('mysql:host=localhost;dbname=nombre_basedatos', 'usuario', 'contraseña');
+            $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            
+            // Prepara la consulta para insertar datos en la base de datos
+            $stmt = $dbh->prepare("INSERT INTO contact_form (name, email, subject, message) VALUES (:name, :email, :subject, :message)");
+            
+            // Ejecuta la consulta con los valores proporcionados por el usuario
+            $stmt->bindParam(':name', $name);
+            $stmt->bindParam(':email', $email);
+            $stmt->bindParam(':subject', $subject);
+            $stmt->bindParam(':message', $message);
+            $stmt->execute();
+            
+            echo "¡Tu mensaje ha sido enviado correctamente!";
+        } catch(PDOException $e) {
+            echo "Error al enviar el mensaje: " . $e->getMessage();
+        }
+    } else {
+        // Si reCAPTCHA no es válido
+        echo "Por favor, complete el reCAPTCHA correctamente.";
+    }
+} else {
+    // Si no se ha enviado el token de reCAPTCHA
+    echo "Error: Falta el token de reCAPTCHA.";
+}
+?>
