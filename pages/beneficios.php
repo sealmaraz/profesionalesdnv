@@ -2,13 +2,14 @@
 $title = "Beneficios";
 ?>
 <?php include("../pages/partials/header.php"); ?>
+<script src="../js/loading.js" defer></script>
 <div class="loading loading--show"><iconify-icon icon="eos-icons:three-dots-loading" width="50" height="50"></iconify-icon></div>
 <section class="banner_principal movie">
   <div class="banner_sorteos swiper mySwiper2">
     <ul class="swiper-wrapper">
       <li class="swiper-slide banner__1">
         <a href="#subsidio"><img class="banner__img" src="../img/banner_beneficios/subsidioMatrimonio.png" alt="" /></a>
-      </li>o
+      </li>
 
       <li class="swiper-slide banner__1">
         <a href="#subsidio"><img class="banner__img" src="../img/banner_beneficios/subsidioNacimiento.png" alt="" /></a>

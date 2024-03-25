@@ -1,44 +1,13 @@
-<?php 
-include("../config/config.php");
-$token = $_POST['token'];
-$action = $_POST['action'];
-// $nombre = $_POST['Apellidoc'];
-// $email = $_POST['Emailc'];
-// $asunto = $_POST['asunto'];
-// $consulta = $_POST['consulta'];
-// echo $nombre;
-// echo $email;
-// echo $asunto;
-// echo $consulta;
-$cu = curl_init();
-curl_setopt($cu, CURLOPT_URL, "https://www.google.com/recaptcha/api/siteverify");
-curl_setopt($cu, CURLOPT_POST, 1);
-curl_setopt($cu, CURLOPT_POSTFIELDS, http_build_query(array('secret' => CLAVE, 'response' => $token)));
-curl_setopt($cu, CURLOPT_RETURNTRANSFER, true);
-$response = curl_exec($cu);
-curl_close($cu);
 
-$datos = json_decode($response, true);
-
-print_r($datos);
-
-if($datos['success'] == 1 && $datos['score'] >= 0.7){
-    if($datos['action'] == 'validarenvio'){
-        
-    }
-    
-    } else {
-    echo "ERES UN ROBOT";
-}
-?>
- 
-
-
- <?php
+  <?php
+ use PHPMailer\PHPMailer\PHPMailer;
+ use PHPMailer\PHPMailer\Exception;
+ require 'vendor/autoload.php'; // Ruta al archivo autoload.php de PHPMailer
+ include("../config/config.php");
 // Verifica si se ha enviado un token de reCAPTCHA
 if (isset($_POST['recaptchaResponse'])) {
     $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
-    $recaptcha_secret = 'Your_Recaptcha_Secret_Key';
+    $recaptcha_secret ='6Le45n8pAAAAAKjGhYHxB59AWGzjp9GD8QFsHk1T';
     $recaptcha_response = $_POST['recaptchaResponse'];
 
     // Hace una solicitud POST a la API de reCAPTCHA
@@ -48,27 +17,50 @@ if (isset($_POST['recaptchaResponse'])) {
     // Verifica la respuesta de reCAPTCHA
     if ($recaptcha->success) {
         // Procesa el formulario
-        $name = $_POST['name'];
+        $mail = new PHPMailer(true);
+        $name = $_POST['nombre'];
         $email = $_POST['email'];
-        $subject = $_POST['subject'];
-        $message = $_POST['message'];
+        $subject = $_POST['asunto'];
+        $message = $_POST['consulta'];
 
         // Validación adicional de campos (puedes agregar más validaciones según tus necesidades)
-
+        //Envío de correo electrónico
+        try {
+            // Configuración del servidor SMTP
+            $mail->isSMTP();
+            $mail->Host = 'lince.avnam.net';
+            $mail->SMTPAuth = true;
+            $mail->Username = 'tu_usuario';
+            $mail->Password = 'tu_contraseña';
+            $mail->SMTPSecure = 'tls'; // TLS o SSL
+            $mail->Port = 587; // Puerto SMTP
+        
+            // Detalles del correo electrónico
+            $mail->setFrom('tu@correo.com', 'Tu Nombre');
+            $mail->addAddress('destinatario@correo.com', 'Destinatario');
+            $mail->Subject = 'Asunto del Correo';
+            $mail->Body = 'Contenido del Correo';
+        
+            // Enviar correo electrónico
+            $mail->send();
+            echo 'El correo se envió correctamente.';
+        } catch (Exception $e) {
+            echo 'Error al enviar el correo: ', $mail->ErrorInfo;
+        }
         // Conexión a la base de datos
         try {
-            $dbh = new PDO('mysql:host=localhost;dbname=nombre_basedatos', 'usuario', 'contraseña');
-            $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            // $dbh = new PDO('mysql:host=localhost;dbname=nombre_basedatos', 'usuario', 'contraseña');
+            // $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             
-            // Prepara la consulta para insertar datos en la base de datos
-            $stmt = $dbh->prepare("INSERT INTO contact_form (name, email, subject, message) VALUES (:name, :email, :subject, :message)");
+            // // Prepara la consulta para insertar datos en la base de datos
+            // $stmt = $dbh->prepare("INSERT INTO contact_form (name, email, subject, message) VALUES (:name, :email, :subject, :message)");
             
-            // Ejecuta la consulta con los valores proporcionados por el usuario
-            $stmt->bindParam(':name', $name);
-            $stmt->bindParam(':email', $email);
-            $stmt->bindParam(':subject', $subject);
-            $stmt->bindParam(':message', $message);
-            $stmt->execute();
+            // // Ejecuta la consulta con los valores proporcionados por el usuario
+            // $stmt->bindParam(':name', $name);
+            // $stmt->bindParam(':email', $email);
+            // $stmt->bindParam(':subject', $subject);
+            // $stmt->bindParam(':message', $message);
+            // $stmt->execute();
             
             echo "¡Tu mensaje ha sido enviado correctamente!";
         } catch(PDOException $e) {
